@@ -1,0 +1,131 @@
+version,meta,attribute,name,type,value
+v0.0.0,,exchangeFunction,BrainGeneratingCostEquation,string,( 2 + 0.2 * physicalDistance * 1.1 ^ pastBrainGenCount ) * ( 1 - 0.05 * tpu011 ) * 0.6 ^ tpu021
+v0.0.0,,exchangeFunction,ChannelGeneratingCostEquation,string,1 * 3 ^ receiverDistance * ( 1 - 0.02 * tpu013 ) * 0.5 ^ tpu023
+v0.0.0,,exchangeFunction,BrainMultiplierUpgradeCostEquation,string,3 * growthRate ^ upgradeCount * ( 1 - 0.04 * tpu012 ) * 0.8 ^ tpu022
+v0.0.0,,exchangeFunction,BrainMultiplierEquation,string,( 2 + tpu001 ) ^ upgradeCount
+v0.0.0,,exchangeFunction,BrainLimitUpgradeCostEquation,string,10 ^ ( distance * upgradeCount + 1 )
+v0.0.0,,exchangeFunction,BrainLimitEquation,string,baseLimit * 10 ^ ( upgradeCount * ( upgradeCount + 1 ) * ( tpu002 + 1 ) / 2 )
+v0.0.0,,exchangeFunction,BrainDecomposingGainEquation,string,12 * ( 1 + log10 ( intellect + 1 ) ) ^ ( 0.4 * ( log10 ( 500 * ( log10 ( intellect + 1 ) ) + 1 ) ) ) * 2 ^ tpu008
+v0.0.0,,exchangeFunction,TPrewardForReset,string,( 0.1 * log10 ( coreBrainIntellect + 1 ) ) ^ 0.8 * 2 ^ tpu027
+v0.0.0,,exchangeFunction,FixedBrainGeneratingCostEquation,string,0.2 * physicalDistance * 2 ^ fixedBrainCount
+v0.0.0,,exchangeFunction,FixedChannelGeneratingCostEquation,string,3 ^ receiverDistance
+v0.0.0,,exchangeFunction,FixedBrainDecomposingCostEquation,string,2 ^ fixedBrainCount
+v0.0.0,,exchangeFunction,MultiplierRewardForReset,string,1 + ( 0.02 * log10 ( coreBrainIntellect + 1 ) ) ^ ( 1.3 + 0.2 * tpu004 ) * 1.07 ^ ( tpu004 ^ 2 )
+v0.0.0,TPU-007: 브레인 길드 부스터,exchangeFunction,MultiplierBoostForTPU007,string,brainCount
+v0.0.0,TPU-010: 브레인 연합 부스터,exchangeFunction,MultiplierBoostForTPU010,string,brainCount
+v0.0.0,TPU-015: 센더 부스터,exchangeFunction,MultiplierBoostForTPU015,string,brainCount
+v0.0.0,TPU-019: 리시버 부스터,exchangeFunction,MultiplierBoostForTPU019,string,brainCount
+v0.0.0,TPU-020: 센더 부스터 체이닝,exchangeFunction,MultiplierBoostForTPU020,string,brainCount
+v0.0.0,TPU-026: NP 부스터,exchangeFunction,MultiplierBoostForTPU026,string,NP
+v0.0.0,TPU-028: TP 부스터,exchangeFunction,MultiplierBoostForTPU028,string,TP
+v0.0.0,,exchangeFunction,TPU000CostEquation,string,1
+v0.0.0,,exchangeFunction,TPU001CostEquation,string,1 * 1.2 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU002CostEquation,string,1 * 1.3 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU003CostEquation,string,2 * 1.9 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU004CostEquation,string,2 * 1.2 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU005CostEquation,string,5 * 2 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU006CostEquation,string,10 * 2 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU007CostEquation,string,15
+v0.0.0,,exchangeFunction,TPU008CostEquation,string,10 * 1.4 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU009CostEquation,string,50
+v0.0.0,,exchangeFunction,TPU010CostEquation,string,30
+v0.0.0,,exchangeFunction,TPU011CostEquation,string,30 * 1.6 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU012CostEquation,string,20 * 1.5 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU013CostEquation,string,10 * 1.23 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU014CostEquation,string,15 * 1.4 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU015CostEquation,string,100
+v0.0.0,,exchangeFunction,TPU016CostEquation,string,30 * 2 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU017CostEquation,string,500 * 2 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU018CostEquation,string,800
+v0.0.0,,exchangeFunction,TPU019CostEquation,string,1500
+v0.0.0,,exchangeFunction,TPU020CostEquation,string,2500
+v0.0.0,,exchangeFunction,TPU021CostEquation,string,20000 * 1.52 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU022CostEquation,string,50000 * 1.8 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU023CostEquation,string,70000 * 1.3 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU024CostEquation,string,800000
+v0.0.0,,exchangeFunction,TPU025CostEquation,string,1500000 * 2 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU026CostEquation,string,1000000
+v0.0.0,,exchangeFunction,TPU027CostEquation,string,1250000 * 3.5 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU028CostEquation,string,10000000
+v0.0.0,,exchangeFunction,TPU029CostEquation,string,100000000
+v0.0.0,"[[변수, 연산자, 숫자 순]]",resetCondition,BrainGeneratingCostCondition,[]string,"[[resetCount, >=, 0]]"
+v0.0.0,,resetCondition,ChannelGeneratingCostCondition,[]string,"[[resetCount, >=, 0]]"
+v0.0.0,,resetCondition,BrainUpgradeCostCondition,[]string,"[[resetCount, >=, 0]]"
+v0.0.0,,resetCondition,BrainDecomposingCondition,[]string,"[[resetCount, >=, 0]]"
+v0.0.0,,constant,InitNP,int,100
+v0.0.0,,constant,InitTP,int,0
+v0.0.0,,constant,InitMaxDepth,int,4
+v0.0.0,,constant,MultiplierUpgradeCostGrowthRate,float,2
+v0.0.0,,constant,TutorialQuest001Requirement,int,1
+v0.0.0,,constant,TutorialQuest002Requirement,int,1
+v0.0.0,,constant,TutorialQuest003Requirement,int,1
+v0.0.0,,constant,TutorialQuest004Requirement,int,1
+v0.0.0,,constant,TutorialQuest005Requirement,int,1
+v0.0.0,,constant,TutorialQuest001TPReward,int,0
+v0.0.0,,constant,TutorialQuest002TPReward,int,0
+v0.0.0,,constant,TutorialQuest003TPReward,int,0
+v0.0.0,,constant,TutorialQuest004TPReward,int,0
+v0.0.0,,constant,TutorialQuest005TPReward,int,1
+v0.0.0,"0이면 무한업글 가능, 1이면 해금형",maxCondition,TPU000MaxLevel,int,1
+v0.0.0,,maxCondition,TPU001MaxLevel,int,18
+v0.0.0,,maxCondition,TPU002MaxLevel,int,80
+v0.0.0,,maxCondition,TPU003MaxLevel,int,20
+v0.0.0,,maxCondition,TPU004MaxLevel,int,100
+v0.0.0,,maxCondition,TPU005MaxLevel,int,50
+v0.0.0,,maxCondition,TPU006MaxLevel,int,10
+v0.0.0,,maxCondition,TPU007MaxLevel,int,1
+v0.0.0,,maxCondition,TPU008MaxLevel,int,50
+v0.0.0,,maxCondition,TPU009MaxLevel,int,1
+v0.0.0,,maxCondition,TPU010MaxLevel,int,1
+v0.0.0,,maxCondition,TPU011MaxLevel,int,19
+v0.0.0,,maxCondition,TPU012MaxLevel,int,24
+v0.0.0,,maxCondition,TPU013MaxLevel,int,49
+v0.0.0,,maxCondition,TPU014MaxLevel,int,20
+v0.0.0,,maxCondition,TPU015MaxLevel,int,1
+v0.0.0,,maxCondition,TPU016MaxLevel,int,20
+v0.0.0,,maxCondition,TPU017MaxLevel,int,10
+v0.0.0,,maxCondition,TPU018MaxLevel,int,1
+v0.0.0,,maxCondition,TPU019MaxLevel,int,1
+v0.0.0,,maxCondition,TPU020MaxLevel,int,1
+v0.0.0,,maxCondition,TPU021MaxLevel,int,10
+v0.0.0,,maxCondition,TPU022MaxLevel,int,10
+v0.0.0,,maxCondition,TPU023MaxLevel,int,10
+v0.0.0,,maxCondition,TPU024MaxLevel,int,1
+v0.0.0,,maxCondition,TPU025MaxLevel,int,50
+v0.0.0,,maxCondition,TPU026MaxLevel,int,1
+v0.0.0,,maxCondition,TPU027MaxLevel,int,0
+v0.0.0,,maxCondition,TPU028MaxLevel,int,1
+v0.0.0,,maxCondition,TPU029MaxLevel,int,1
+v0.0.0,"[[업글ID, 최소 업글횟수]]",unlockCondition,TPU000UnlockRequirement,[][2]int,[]
+v0.0.0,,unlockCondition,TPU001UnlockRequirement,[][2]int,"[[0, 1]]"
+v0.0.0,,unlockCondition,TPU002UnlockRequirement,[][2]int,"[[1, 1]]"
+v0.0.0,,unlockCondition,TPU003UnlockRequirement,[][2]int,"[[2, 1]]"
+v0.0.0,,unlockCondition,TPU004UnlockRequirement,[][2]int,"[[2, 3]]"
+v0.0.0,,unlockCondition,TPU005UnlockRequirement,[][2]int,"[[4, 3]]"
+v0.0.0,,unlockCondition,TPU006UnlockRequirement,[][2]int,"[[5, 2]]"
+v0.0.0,,unlockCondition,TPU007UnlockRequirement,[][2]int,"[[3, 3], [6, 2]]"
+v0.0.0,,unlockCondition,TPU008UnlockRequirement,[][2]int,"[[4, 5]]"
+v0.0.0,,unlockCondition,TPU009UnlockRequirement,[][2]int,"[[5, 5]]"
+v0.0.0,,unlockCondition,TPU010UnlockRequirement,[][2]int,"[[7, 1]]"
+v0.0.0,,unlockCondition,TPU011UnlockRequirement,[][2]int,"[[8, 3]]"
+v0.0.0,,unlockCondition,TPU012UnlockRequirement,[][2]int,"[[8, 6]]"
+v0.0.0,,unlockCondition,TPU013UnlockRequirement,[][2]int,"[[8, 10]]"
+v0.0.0,,unlockCondition,TPU014UnlockRequirement,[][2]int,"[[8, 2]]"
+v0.0.0,,unlockCondition,TPU015UnlockRequirement,[][2]int,"[[10, 1]]"
+v0.0.0,,unlockCondition,TPU016UnlockRequirement,[][2]int,"[[14, 5]]"
+v0.0.0,,unlockCondition,TPU017UnlockRequirement,[][2]int,"[[9, 1], [16, 3]]"
+v0.0.0,,unlockCondition,TPU018UnlockRequirement,[][2]int,"[[17, 1]]"
+v0.0.0,,unlockCondition,TPU019UnlockRequirement,[][2]int,"[[15, 1], [18, 1]]"
+v0.0.0,,unlockCondition,TPU020UnlockRequirement,[][2]int,"[[3, 10], [15, 1], [19, 1]]"
+v0.0.0,,unlockCondition,TPU021UnlockRequirement,[][2]int,"[[11, 19]]"
+v0.0.0,,unlockCondition,TPU022UnlockRequirement,[][2]int,"[[12, 24], [21, 5]]"
+v0.0.0,,unlockCondition,TPU023UnlockRequirement,[][2]int,"[[13, 49], [22, 5]]"
+v0.0.0,,unlockCondition,TPU024UnlockRequirement,[][2]int,"[[18, 1], [20, 1], [23, 10]]"
+v0.0.0,,unlockCondition,TPU025UnlockRequirement,[][2]int,"[[4, 40], [16, 15], [26, 1]]"
+v0.0.0,,unlockCondition,TPU026UnlockRequirement,[][2]int,"[[19, 1]]"
+v0.0.0,,unlockCondition,TPU027UnlockRequirement,[][2]int,"[[25, 5], [28, 1]]"
+v0.0.0,,unlockCondition,TPU028UnlockRequirement,[][2]int,"[[26, 1]]"
+v0.0.0,,unlockCondition,TPU029UnlockRequirement,[][2]int,"[[24, 1], [27, 20]]"
+v0.0.0,"[1계층, 2계층, 3계층]",LimitList,ExperimentGoalList,[]UpArrowNotation,"[[1, 3, 0], [1, 5, 0], [1, 7, 0], [1, 1, 1], [1, 1.5, 1], [1, 2, 1], [1, 3, 1], [1, 5, 1], [1, 1, 2], [1, 2, 2], [1, 5, 2], [1, 1, 3], [1, 2, 3], [1, 5, 3], [1, 1, 4], [1, 3, 4], [1, 1, 5], [1, 3, 5], [1, 1, 6], [1, 3, 6], [1, 1, 7], [1, 1, 8], [1, 1, 9]]"
+v0.0.0,,LimitList,BaseIntellectLimitList,[]UpArrowNotation,"[[1, 5, 0], [1, 1, 1], [1, 1.5, 1], [1, 2, 1], [1, 3, 1], [1, 4, 1], [1, 5, 1], [1, 6, 1], [1, 8, 1], [1, 1, 2], [1, 1.3, 2], [1, 1.6, 2], [1, 2, 2], [1, 2.5, 2], [1, 3, 2], [1, 3.6, 2], [1, 4.2, 2], [1, 5, 2], [1, 6, 2], [1, 7, 2], [1, 8.5, 2], [1, 1, 3], [1, 1.2, 3], [1, 1.4, 3], [1, 1.7, 3], [1, 2, 3], [1, 2.5, 3], [1, 3, 3], [1, 4, 3], [1, 5, 3], [1, 6, 3], [1, 8, 3], [1, 1, 4], [1, 1.5, 4], [1, 2, 4], [1, 2.5, 4], [1, 3, 4], [1, 4, 4], [1, 5, 4], [1, 6, 4], [1, 8, 4], [1, 1, 5], [1, 1.5, 5], [1, 2, 5], [1, 2.5, 5], [1, 3, 5], [1, 4, 5], [1, 5, 5], [1, 6, 5], [1, 8, 5], [1, 1, 6], [1, 1.5, 6], [1, 2, 6], [1, 2.5, 6], [1, 3, 6], [1, 4, 6], [1, 5, 6], [1, 6, 6], [1, 8, 6], [1, 1, 7], [1, 1.5, 7], [1, 2, 7], [1, 2.5, 7], [1, 3, 7], [1, 4, 7], [1, 5, 7], [1, 6, 7], [1, 8, 7], [1, 1, 8], [1, 2, 8], [1, 3, 8], [1, 5, 8], [1, 7, 8], [1, 1, 9], [1, 2, 9], [1, 3, 9], [1, 4, 9], [1, 5, 9], [1, 6, 9], [1, 7, 9], [1, 8, 9], [1, 9, 9]]"
+v0.0.0,,IntList,BulkUpgradeCountList,[]int,"[1, 5, 10, 50, 100, 500, 1000, 5000, 10000, 50000, 100000]"

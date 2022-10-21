@@ -1,0 +1,154 @@
+version,meta,attribute,name,value-kor,value-eng
+v0.0.0,,LoginSceneUIText,SetUserNameText,닉네임을 설정하세요.,Set your username.
+v0.0.0,,LoginSceneUIText,UserNameExistText,이미 사용중인 닉네임입니다.,This name is already exists.
+v0.0.0,,DropDownMenuButtonText,DropDownMenuItemText_Statistics,통계,Statistics
+v0.0.0,,DropDownMenuButtonText,DropDownMenuItemText_Options,설정,Options
+v0.0.0,,DropDownMenuButtonText,DropDownMenuItemText_Help,도움말,Help
+v0.0.0,,DropDownMenuButtonText,DropDownMenuItemText_About,소개,About
+v0.0.0,,HelpPopupText,HelpPopupTitleText,도움말,HELP
+v0.0.0,,HelpPopupText,HelpPopupTabButtonText_HowToPlay,기본 조작법,Basic Controls
+v0.0.0,,HelpPopupText,HelpPopupTabButtonText_Terms,용어집,Terms
+v0.0.0,,HelpPopupText,HowToExploreNetworkTitle,브레인 네트워크 탐색,Brain Network Explore
+v0.0.0,,HelpPopupText,HowToExploreNetworkDescription,"빈 공간을 한 손가락으로 스와이핑하여 네트워크 뷰를 이동할 수 있고, 두 손가락으로 확대/축소 동작을 할 수 있습니다.","You can swipe free space with one finger to move the camera view, and zoom with two fingers."
+v0.0.0,,HelpPopupText,HowToCreateBrainTitle,브레인 생성,Brain Generation
+v0.0.0,,HelpPopupText,HowToCreateBrainDescription,화면 오른쪽 하단의 버튼을 누른 채 드래그하고\n원하는 위치에서 드랍하여 브레인을 생성할 수 있습니다.\n버튼 안에서 드랍하면 생성을 취소할 수 있습니다.,"You can create a brain by holding down and dragging the button at the bottom right of the screen and dropping it from any location.\nTo cancel creation, just drop it inside the button."
+v0.0.0,,HelpPopupText,HowToCreateChannelTitle,브레인 연결 (채널 생성),Brain Connection (Channel Generation)
+v0.0.0,,HelpPopupText,HowToCreateChannelDescription,브레인을 길게 누른 후 드래그하면 채널이 생성됩니다. 원하는 브레인 위에서 드랍하면 두 브레인을 연결하는 채널이 완성됩니다.\n출발했던 브레인 또는 빈 공간에서 드랍하면 생성을 취소할 수 있습니다.,Hold and drag from the brain to create a channel. Drop over the desired brain to complete the channel connection.\nYou can cancel connection by dropping from the empty space.
+v0.0.0,,HelpPopupText,HowToViewBrainInfoTitle,브레인 세부 정보,Brain Info
+v0.0.0,,HelpPopupText,HowToViewBrainInfoDescription,브레인을 터치하면 팝업을 띄워 해당 브레인의 세부 정보를 보거나 업그레이드/분해 등의 동작을 할 수 있습니다.,"Touch the brain to display a pop-up to view details of that brain, such as upgrading/decomposing."
+v0.0.0,,HelpPopupText,ExperimentTerm,실험,Experiment
+v0.0.0,,HelpPopupText,ExperimentDescription,네트워크를 성장시키고 브레인들의 지능을 키우는 전체 과정입니다.,
+v0.0.0,,HelpPopupText,CoreBrainTerm,코어 브레인,Core Brain
+v0.0.0,,HelpPopupText,CoreBrainDescription,게임 시작부터 주어지는 큰 브레인입니다. 이 브레인의 지능을 키우는 것이 실험의 목적입니다.,
+v0.0.0,,HelpPopupText,NormalBrainTerm,노말(일반) 브레인,Normal Brain
+v0.0.0,,HelpPopupText,NormalBrainDescription,사용자가 직접 생성/연결/업그레이드/분해할 수 있는 브레인입니다.\n이들을 활용하여 코어 브레인의 지능을 키웁니다.,
+v0.0.0,,HelpPopupText,IntellectTerm,지능,Intellect
+v0.0.0,,HelpPopupText,IntellectDescription,브레인의 성장 상태를 가늠하는 척도입니다.\n모든 브레인은 자신의 지능에 비례하는 속도로 다른 브레인의 지능값을 올릴 수 있습니다.,
+v0.0.0,,HelpPopupText,ChannelTerm,채널,Channel
+v0.0.0,,HelpPopupText,ChannelDescription,"두 브레인을 연결하는, 방향을 갖는 선입니다.\n각 브레인은 채널을 통해 연결된 다른 브레인의 지능값을 올려줍니다.",
+v0.0.0,,HelpPopupText,BrainNetworkTerm,브레인 네트워크,Brain Network
+v0.0.0,,HelpPopupText,BrainNetworkDescription,브레인과 채널로 구성된 전체 네트워크입니다.,
+v0.0.0,,HelpPopupText,DecompositionTerm,(브레인의)분해,Decomposition (of a Brain)
+v0.0.0,,HelpPopupText,DecompositionDescription,"브레인을 네트워크에서 삭제하고, 해당 브레인의 지능에 상응하는 NP를 획득하는 동작입니다.\n만약 이 동작으로 인해 네트워크에서 고립되는 브레인이 생긴다면 이들까지 모두 자동 분해되고 NP 보상을 얻습니다.",
+v0.0.0,,HelpPopupText,IntellectLimitTerm,지능의 한계,Intellect Limit
+v0.0.0,,HelpPopupText,IntellectLimitDescription,브레인의 지능이 성장할 수 있는 최댓값입니다.\nNP 또는 TP를 소비하여 이 값을 올릴 수 있습니다.,
+v0.0.0,,HelpPopupText,MultiplierTerm,증폭계수,Multiplier
+v0.0.0,,HelpPopupText,MultiplierDescription,TP업그레이드를 통해 잠금 해제되는 속성입니다.\n모든 브레인은 자신의 지능에 증폭계수를 곱한 만큼의 능력을 발휘합니다.,
+v0.0.0,,HelpPopupText,DepthTerm,(브레인의)단수,Depth (of a Brain)
+v0.0.0,,HelpPopupText,DepthDescription,"코어 브레인에 직접 연결된 브레인은 1단,\n1단 브레인에 연결된 브레인은 2단,\n2단에 연결된 브레인은 3단, ...\n과 같은 식으로 매겨지는 속성값입니다.\n채널 생성, 업그레이드 등의 동작에서 소비될 NP의 양을 결정하는 인자 중 하나로 사용됩니다.\n게임 최초 오픈 시에는 최대 4단까지의 브레인을 생성할 수 있습니다.",
+v0.0.0,,HelpPopupText,ExperimentGoalTerm,실험 목표,Experiment Goal
+v0.0.0,,HelpPopupText,ExperimentGoalDescription,"코어 브레인의 지능수준이 곧 실험의 진척도이며,\n코어 브레인의 지능이 도달해야 할 목표치가 곧 실험의 목표입니다.",
+v0.0.0,,HelpPopupText,ResetTerm,초기화,Reset
+v0.0.0,,HelpPopupText,ResetDescription,"코어 브레인을 제외한 네트워크의 모든 구성 요소를 삭제하고, 그 대가로 TP를 획득하는 과정입니다.\n코어 브레인을 탭하여 나오는 팝업에서 초기화 동작을 할 수 있습니다.\n특히 실험을 완료한 경우 자동으로 초기화되며, 더 높은 목표를 갖는 새로운 실험을 시작하게 됩니다.",
+v0.0.0,,HelpPopupText,NPTerm,NP (네트워킹 파워),NP (Networking Power)
+v0.0.0,,HelpPopupText,NPDescription,"브레인 네트워크 성장에 사용하는 재화입니다.\n브레인 생성/연결/업그레이드 동작에서 소비되며,\n브레인 분해 동작으로 획득합니다.\n네트워크 초기화 시 함께 초기화됩니다.",
+v0.0.0,,HelpPopupText,TPTerm,TP (트렌센딩 파워),TP (Transcending Power)
+v0.0.0,,HelpPopupText,TPDescription,네트워크 전체의 성능을 영구적으로 향상시키거나 새로운 시스템을 잠금 해제하는 데 사용되는 재화입니다. 네트워크 초기화를 통해 획득합니다.,
+v0.0.0,,ShowCostUIText,CostText,비용: {0} NP,Cost: {0} NP
+v0.0.0,,ShowCostUIText,TooCloseText,다른 브레인들과 거리가 너무 가깝습니다.,Too close to other brains.
+v0.0.0,,ShowCostUIText,RemainingFreeBrainsText,남은 공짜 브레인 {0}/{1}개,Free brains remaining: {0}/{1}
+v0.0.0,,ShowCostUIText,SelectBrainText,연결할 브레인을 선택하세요.,Select a brain to connect.
+v0.0.0,,ShowCostUIText,NotFromCoreText,코어 브레인에서 출발하는 채널은 생성할 수 없습니다.,Cannot generate a channel starting from core.
+v0.0.0,,ShowCostUIText,NotToIsolatedText,고립된 브레인에는 채널을 연결할 수 없습니다.,Cannot generate a channel to an isolated brain.
+v0.0.0,,ShowCostUIText,AlreadyHasChannelText,이미 채널을 갖는 브레인입니다.,This brain already has a channel.
+v0.0.0,,ShowCostUIText,MaxDepthExceededText,직렬 연결은 최대 {0}단까지만 가능합니다.\n(업그레이드 가능),Cannot make a chain longer than {0}.\n(Upgradable)
+v0.0.0,,ShowCostUIText,AllReceiverIdenticalText,모든 리시버 브레인의 단수가 동일해야 합니다.,All receivers' depth mist be identical.
+v0.0.0,,ShowCostUIText,NotLoopText,루프는 생성할 수 없습니다.,Cannot generate a loop.
+v0.0.0,,ShowCostUIText,AlreadyConnectionText,이미 연결된 브레인입니다.,Connection already exists.
+v0.0.0,,BrainInfoPopupText,BrainInfoPopupTitleText,브레인 세부 정보,BRAIN INFO
+v0.0.0,,BrainInfoPopupText,BrainInfoIDTitle,ID,ID
+v0.0.0,,BrainInfoPopupText,BrainInfoTypeTitle,타입,Type
+v0.0.0,,BrainInfoPopupText,BrainInfoType_CoreBrain,코어 브레인,Core Brain
+v0.0.0,,BrainInfoPopupText,BrainInfoType_NormalBrain,노말 브레인,Normal Brain
+v0.0.0,,BrainInfoPopupText,BrainInfoIntellectTitle,지능,Intellect
+v0.0.0,,BrainInfoPopupText,BrainInfoIntellectLimitTitle,지능의 한계,Intellect Limit
+v0.0.0,,BrainInfoPopupText,BrainInfoMultiplierTitle,증폭계수,Multiplier
+v0.0.0,,BrainInfoPopupText,BrainInfoStoredNPTitle,축적 NP량,Stored NP
+v0.0.0,,BrainInfoPopupText,BrainInfoDistanceTitle,단수,Depth
+v0.0.0,,BrainInfoPopupText,BrainInfoStatusTitle,상태,Status
+v0.0.0,,BrainInfoPopupText,BrainInfoStatus_NotConnected,네트워크에 연결되지 않음,Not Connected
+v0.0.0,,BrainInfoPopupText,BrainInfoStatus_Idle,유휴 상태,Idle
+v0.0.0,,BrainInfoPopupText,BrainInfoStatus_Working,작동 중,Working
+v0.0.0,,BrainInfoPopupText,BrainInfoStatus_LimitExceeded,한계 초과,Limit Exceeded
+v0.0.0,,BrainInfoPopupText,BrainInfoResetButtonText,네트워크 초기화,Network Reset
+v0.0.0,,BrainInfoPopupText,BrainInfoUpgradeIntellectButtonText,지능 +1,+1 Intellect
+v0.0.0,,BrainInfoPopupText,BrainInfoUpgradeMultiplierButtonText,증폭계수 x{0},x{0} Multiplier
+v0.0.0,,BrainInfoPopupText,BrainInfoBatchUpgradeButtonText,전체 브레인 증폭계수 x{0},x{0} Multiplier\nfor All Brains
+v0.0.0,,BrainInfoPopupText,BrainInfoUpgradeLimitButtonText,{0}으로 한계 돌파,Break Limit to {0}
+v0.0.0,,BrainInfoPopupText,BrainInfoDecomposeButtonText_NoSender,분해하여\n{0} NP 획득,Decompose for\n{0} NP
+v0.0.0,,BrainInfoPopupText,BrainInfoDecomposeButtonText_HasSender,분해하여\n{0} NP 획득\n+ {1} NP,Decompose for\n{0} NP\n+ {1} NP
+v0.0.0,,BrainInfoPopupText,BrainInfoBulkUpgradeText,{0}회\n업그레이드,Upgrade\n{0} times
+v0.0.0,,ResetPopupText,ResetPopupResetButtonText,네트워크\n초기화,Network\nReset
+v0.0.0,,ResetPopupText,ResetPopupCancelButtonText,취소,Cancel
+v0.0.0,,ResetPopupText,ResetPopupCompleteTitleText,실험을 완료했습니다!,Experiment Complete!
+v0.0.0,,ResetPopupText,ResetPopupIncompleteTitleText,지금 초기화하시겠습니까?,Reset Now?
+v0.0.0,,ResetPopupText,ResetPopupCompleteHeaderText,실험 결과,Result
+v0.0.0,,ResetPopupText,ResetPopupIncompleteHeaderText,현재 상태,Current Status
+v0.0.0,,ResetPopupText,ResetPopupExperimentLevelKey,실험 레벨,Experiment Level
+v0.0.0,,ResetPopupText,ResetPopupExperimentLevelValue,Lv. {0},Lv. {0}
+v0.0.0,,ResetPopupText,ResetPopupAttemptsCompleteKey,총 시도 횟수,Total Attempts
+v0.0.0,,ResetPopupText,ResetPopupAttemptsCompleteValue,{0}회,{0} Attempts
+v0.0.0,,ResetPopupText,ResetPopupAttemptsIncompleteKey,현재 시도 횟수,Current Attempts
+v0.0.0,,ResetPopupText,ResetPopupAttemptsIncompleteValue,{0}회,{0} Attempts
+v0.0.0,,ResetPopupText,ResetPopupGoalKey,실험 목표,Experiment Goal
+v0.0.0,,ResetPopupText,ResetPopupGoalValue,{0},{0}
+v0.0.0,,ResetPopupText,ResetPopupElapsedTimeCompleteKey,경과 시간,Elapsed Time
+v0.0.0,,ResetPopupText,ResetPopupElapsedTimeCompleteValue,{0:D4}d {0:D2}h {0:D2}m {0:D2}s,{0:D4}d {0:D2}h {0:D2}m {0:D2}s
+v0.0.0,,ResetPopupText,ResetPopupIntellectIncompleteKey,현재 코어의 지능,Current Core Intellect
+v0.0.0,,ResetPopupText,ResetPopupIntellectIncompleteValue,{0},{0}
+v0.0.0,,ResetPopupText,ResetPopupMultiplierKey,증폭계수 보상,Multiplier Reward
+v0.0.0,,ResetPopupText,ResetPopupMultiplierValue,x{0},x{0}
+v0.0.0,,ResetPopupText,ResetPopupTPKey,TP 보상,TP Reward
+v0.0.0,,ResetPopupText,ResetPopupTPValue,{0} TP,{0} TP
+v0.0.0,,ResetPopupText,ResetPopupCompleteMessage,네트워크를 초기화하고 다음 단계의 실험을 시작하여 더 높은 목표에 도전하세요!,Reset network to start the next level experiment with higher goal!!
+v0.0.0,,ResetPopupText,ResetPopupIncompleteMessage,정말 초기화하시겠습니까? 지금 초기화하면 동일한 실험을 처음부터 다시 시작하게 됩니다.,Are you sure want to reset?\nYou'll restart this experiment with the same goal.
+v0.0.0,,UserInfoPopupText,UserInfoPopupTitleText,내 정보,MY INFO
+v0.0.0,,UserInfoPopupText,UserInfoPopupExperimentLevelKey,실험 레벨,Experiment Level
+v0.0.0,,UserInfoPopupText,UserInfoPopupExperimentLevelValue,Lv. {0},Lv. {0}
+v0.0.0,,UserInfoPopupText,UserInfoPopupAttemptsKey,현재 시도 횟수,Current Attempts
+v0.0.0,,UserInfoPopupText,UserInfoPopupAttemptsValue,{0}회,{0} Attempts
+v0.0.0,,UserInfoPopupText,UserInfoPopupCoreIntellectKey,코어 브레인 지능,Core Brain Intellect
+v0.0.0,,UserInfoPopupText,UserInfoPopupCoreIntellectValue,{0},{0}
+v0.0.0,,UserInfoPopupText,UserInfoPopupNPKey,NP 보유량,NP Possession
+v0.0.0,,UserInfoPopupText,UserInfoPopupNPValue,{0} NP,{0} NP
+v0.0.0,,UserInfoPopupText,UserInfoPopupTPKey,TP 보유량,TP Possession
+v0.0.0,,UserInfoPopupText,UserInfoPopupTPValue,{0} TP,{0} TP
+v0.0.0,,UserInfoPopupText,UserInfoPopupTotalBrainGenCountKey,누적 브레인 생성 횟수,Total Generated Brain Count
+v0.0.0,,UserInfoPopupText,UserInfoPopupTotalBrainGenCountValue,{0}회,{0}
+v0.0.0,,UserInfoPopupText,UserInfoPopupMaxDepthKey,직렬연결 최대 단수,Max Depth of Chain
+v0.0.0,,UserInfoPopupText,UserInfoPopupMaxDepthValue,{0}단,Depth {0}
+v0.0.0,,StatisticsPopupText,StatisticsPopupTitle,통계,Statistics
+v0.0.0,,StatisticsPopupText,StatisticsGameStartTimeKey,게임 시작 시각,Game Start Time
+v0.0.0,,StatisticsPopupText,StatisticsGameStartTimeValue,{0:D4}.{0:D2}.{0:D2} {0:D2}:{0:D2}:{0:D2},{0:D4}.{0:D2}.{0:D2} {0:D2}:{0:D2}:{0:D2}
+v0.0.0,,StatisticsPopupText,StatisticsTotalPlayTimeKey,총 플레이타임,Total Playtime
+v0.0.0,,StatisticsPopupText,StatisticsTotalPlayTimeValue,{0:D4}일 {0:D2}시간 {0:D2}분 {0:D2}초,{0:D4}d {0:D2}h {0:D2}m {0:D2}s
+v0.0.0,,StatisticsPopupText,StatisticsTotalAttemptsKey,총 시도 횟수,Total Attempts
+v0.0.0,,StatisticsPopupText,StatisticsTotalAttemptsValue,{0}회,{0} Attempts
+v0.0.0,,StatisticsPopupText,StatisticsExperimentLevelKey,현재 실험 레벨,Experiment Level
+v0.0.0,,StatisticsPopupText,StatisticsExperimentLevelValue,Lv. {0},Lv. {0}
+v0.0.0,,StatisticsPopupText,StatisticsExperimentStartTimeKey,현재 실험 시작 시각,Current Experiment Start Time
+v0.0.0,,StatisticsPopupText,StatisticsExperimentStartTimeValue,{0:D4}.{0:D2}.{0:D2} {0:D2}:{0:D2}:{0:D2},{0:D4}.{0:D2}.{0:D2} {0:D2}:{0:D2}:{0:D2}
+v0.0.0,,StatisticsPopupText,StatisticsExperimentPlayTimeKey,현재 실험 플레이타임,Current Experiment Playtime
+v0.0.0,,StatisticsPopupText,StatisticsExperimentPlayTimeValue,{0:D4}일 {0:D2}시간 {0:D2}분 {0:D2}초,{0:D4}d {0:D2}h {0:D2}m {0:D2}s
+v0.0.0,,StatisticsPopupText,StatisticsCurrentAttemptsKey,현재 실험에서의 시도 횟수,Attempts in Current Experiment
+v0.0.0,,StatisticsPopupText,StatisticsCurrentAttemptsValue,{0}회,{0} Attempts
+v0.0.0,,StatisticsPopupText,StatisticsCurrentCoreIntellectKey,현재 코어 브레인 지능,Current Core Intellect
+v0.0.0,,StatisticsPopupText,StatisticsCurrentCoreIntellectValue,{0},{0}
+v0.0.0,,StatisticsPopupText,StatisticsHighestCoreIntellectKey,코어 브레인 지능 최고기록,Highest Core Intellect
+v0.0.0,,StatisticsPopupText,StatisticsHighestCoreIntellectValue,{0},{0}
+v0.0.0,,StatisticsPopupText,StatisticsBaseMultiplierKey,기본 증폭계수,Base Multiplier
+v0.0.0,,StatisticsPopupText,StatisticsBaseMultiplierValue,x{0},x{0}
+v0.0.0,,StatisticsPopupText,StatisticsTotalGeneratedBrainsKey,총 브레인 생성 횟수,Total Generated Brains
+v0.0.0,,StatisticsPopupText,StatisticsTotalGeneratedBrainsValue,{0}회,{0} Brains
+v0.0.0,,StatisticsPopupText,StatisticsTotalGeneratedChannelsKey,총 브레인 연결 횟수,Total Brain Connections
+v0.0.0,,StatisticsPopupText,StatisticsTotalGeneratedChannelsValue,{0}회,{0} Connections
+v0.0.0,,StatisticsPopupText,StatisticsTotalDecomposedBrainsKey,총 브레인 분해 횟수,Total Decomposed Brains
+v0.0.0,,StatisticsPopupText,StatisticsTotalDecomposedBrainsValue,{0}회,{0} Brains
+v0.0.0,,StatisticsPopupText,StatisticsTotalTapCountKey,탭 횟수,Total Tap Count
+v0.0.0,,StatisticsPopupText,StatisticsTotalTapCountValue,{0}회,{0} Taps
+v0.0.0,,StatisticsPopupText,StatisticsTotalGeneratedASNsKey,ASN 생성 횟수,Total Generated ASNs
+v0.0.0,,StatisticsPopupText,StatisticsTotalGeneratedASNsValue,{0}회,{0} ASNs
+v0.0.0,,StatisticsPopupText,StatisticsTotalNPGainKey,누적 NP 획득량,Total NP Gain
+v0.0.0,,StatisticsPopupText,StatisticsTotalNPGainValue,{0} NP,{0} NP
+v0.0.0,,StatisticsPopupText,StatisticsTotalTPGainKey,누적 TP 획득량,Total TP Gain
+v0.0.0,,StatisticsPopupText,StatisticsTotalTPGainValue,{0} TP,{0} TP
