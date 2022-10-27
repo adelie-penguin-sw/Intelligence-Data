@@ -19,11 +19,12 @@ jobs:
       run: aws s3 sync . s3://${{ secrets.TEST_S3_BUCKET_NAME }} --delete --exclude ".git*" 
 
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - run: |
           curl -X POST \
-          -H "Authorization: Bearer ${{secrets.GITHUB_ACCESS_TOKEN}}" \
+          -H "Authorization: Bearer ${{secrets.G_ACCESS_TOKEN}}" \
           -H "Accept: application/vnd.github.v3+json" \
           https://api.github.com/repos/adelie-penguin-sw/Intelligence-Server/actions/workflows/deploy.yml/dispatches \
           -d '{"ref": "dev"}'
