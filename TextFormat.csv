@@ -1,0 +1,20 @@
+version,key,meta,kor,eng
+v0.0.0,1,,비용: {0} NP,Cost: {0} NP
+v0.0.0,2,,증폭계수 x{0},x{0} Multiplier
+v0.0.0,3,,전체 브레인 증폭계수 x{0},x{0} Multiplier\nfor All Brains
+v0.0.0,4,,{0}으로 한계 돌파,Break Limit to {0}
+v0.0.0,5,,분해하여\n{0} NP 획득,Decompose for\n{0} NP
+v0.0.0,6,,분해하여\n{0} NP 획득\n+ {1} NP,Decompose for\n{0} NP\n+ {1} NP
+v0.0.0,7,,{0}회\n업그레이드,Upgrade\n{0} times
+v0.0.0,8,,Lv. {0},Lv. {0}
+v0.0.0,9,,{0}회,{0} Attempts
+v0.0.0,10,,{0},{0}
+v0.0.0,11,,{0:D4}d {0:D2}h {0:D2}m {0:D2}s,{0:D4}d {0:D2}h {0:D2}m {0:D2}s
+v0.0.0,12,,x{0},x{0}
+v0.0.0,13,,{0} TP,{0} TP
+v0.0.0,14,,{0} NP,{0} NP
+v0.0.0,15,,{0}단,Depth {0}
+v0.0.0,16,,{0:D4}일 {0:D2}시간 {0:D2}분 {0:D2}초,{0:D4}d {0:D2}h {0:D2}m {0:D2}s
+v0.0.0,17,,남은 공짜 브레인 {0}/{1}개,Free brains remaining: {0}/{1}
+v0.0.0,18,,직렬 연결은 최대 {0}단까지만 가능합니다.\n(업그레이드 가능),Cannot make a chain longer than {0}.\n(Upgradable)
+v0.0.0,19,,{0:D4}.{0:D2}.{0:D2} {0:D2}:{0:D2}:{0:D2},{0:D4}.{0:D2}.{0:D2} {0:D2}:{0:D2}:{0:D2}
