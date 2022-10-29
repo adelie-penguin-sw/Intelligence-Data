@@ -68,7 +68,7 @@ v0.0.0,13013,네트워크 초기화 팝업(13001~14000),증폭계수 보상,Mult
 v0.0.0,13014,네트워크 초기화 팝업(13001~14000),TP 보상,TP Reward
 v0.0.0,13015,네트워크 초기화 팝업(13001~14000),네트워크를 초기화하고 다음 단계의 실험을 시작하여 더 높은 목표에 도전하세요!,Reset network to start the next level experiment with higher goal!!
 v0.0.0,13016,네트워크 초기화 팝업(13001~14000),정말 초기화하시겠습니까? 지금 초기화하면 동일한 실험을 처음부터 다시 시작하게 됩니다.,Are you sure want to reset?\nYou'll restart this experiment with the same goal.
-v0.0.0,13014,네트워크 초기화 팝업(13001~14000),NP 이월량,NP Carry Over
+v0.0.0,13017,네트워크 초기화 팝업(13001~14000),NP 이월량,NP Carry Over
 v0.0.0,14001,유저 정보 팝업(14001~15000),내 정보,MY INFO
 v0.0.0,14002,유저 정보 팝업(14001~15000),실험 레벨,Experiment Level
 v0.0.0,14003,유저 정보 팝업(14001~15000),현재 시도 횟수,Current Attempts
