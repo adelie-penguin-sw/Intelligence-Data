@@ -8,9 +8,10 @@ v0.0.0,1002,네트워크 설치 알림 멘트(1001~2000),연결할 브레인을 
 v0.0.0,1003,네트워크 설치 알림 멘트(1001~2000),코어 브레인에서 출발하는 채널은 생성할 수 없습니다.,Cannot generate a channel starting from core.
 v0.0.0,1004,네트워크 설치 알림 멘트(1001~2000),고립된 브레인에는 채널을 연결할 수 없습니다.,Cannot generate a channel to an isolated brain.
 v0.0.0,1005,네트워크 설치 알림 멘트(1001~2000),이미 채널을 갖는 브레인입니다.,This brain already has a channel.
-v0.0.0,1006,네트워크 설치 알림 멘트(1001~2000),모든 리시버 브레인의 단수가 동일해야 합니다.,All receivers' depth mist be identical.
+v0.0.0,1006,네트워크 설치 알림 멘트(1001~2000),모든 리시버 브레인의 단수가 동일해야 합니다.,All receivers' depth must be identical.
 v0.0.0,1007,네트워크 설치 알림 멘트(1001~2000),루프는 생성할 수 없습니다.,Cannot generate a loop.
 v0.0.0,1008,네트워크 설치 알림 멘트(1001~2000),이미 연결된 브레인입니다.,Connection already exists.
+v0.0.0,1009,네트워크 설치 알림 멘트(1001~2000),사용 가능한 고정 브레인 개수를 초과합니다.,Exceeds available number of fixed brains.
 v0.0.0,10001,도움말 팝업(10001~11000),도움말,Help
 v0.0.0,10002,도움말 팝업(10001~11000),기본 조작법,Basic Controls
 v0.0.0,10003,도움말 팝업(10001~11000),용어집,Terms
@@ -67,6 +68,7 @@ v0.0.0,13013,네트워크 초기화 팝업(13001~14000),증폭계수 보상,Mult
 v0.0.0,13014,네트워크 초기화 팝업(13001~14000),TP 보상,TP Reward
 v0.0.0,13015,네트워크 초기화 팝업(13001~14000),네트워크를 초기화하고 다음 단계의 실험을 시작하여 더 높은 목표에 도전하세요!,Reset network to start the next level experiment with higher goal!!
 v0.0.0,13016,네트워크 초기화 팝업(13001~14000),정말 초기화하시겠습니까? 지금 초기화하면 동일한 실험을 처음부터 다시 시작하게 됩니다.,Are you sure want to reset?\nYou'll restart this experiment with the same goal.
+v0.0.0,13014,네트워크 초기화 팝업(13001~14000),NP 이월량,NP Carry Over
 v0.0.0,14001,유저 정보 팝업(14001~15000),내 정보,MY INFO
 v0.0.0,14002,유저 정보 팝업(14001~15000),실험 레벨,Experiment Level
 v0.0.0,14003,유저 정보 팝업(14001~15000),현재 시도 횟수,Current Attempts
@@ -75,3 +77,4 @@ v0.0.0,14005,유저 정보 팝업(14001~15000),NP 보유량,NP Possession
 v0.0.0,14006,유저 정보 팝업(14001~15000),TP 보유량,TP Possession
 v0.0.0,14007,유저 정보 팝업(14001~15000),누적 브레인 생성 횟수,Total Generated Brain Count
 v0.0.0,14008,유저 정보 팝업(14001~15000),직렬연결 최대 단수,Max Depth of Chain
+v0.0.0,15001,고정 네트워크 관련 팝업(15001~16000),고정 네트워크 편집 모드를 종료하시겠습니까?\n변경 내역은 다음 초기화 직후 적용됩니다.,Exit FN edit mode?\nAll changes will be applied after next reset.
