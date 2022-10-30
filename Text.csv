@@ -136,28 +136,28 @@ v0.0.0,18040,TP업글탭(18001~19000),자동화 부분네트워크 (ASN) (미구
 v0.0.0,18041,TP업글탭(18001~19000),브레인을 자동으로 생성/연결/업그레이드/분해하는 부분 네트워크를 구축합니다.,Create a sub-network which automatically generates/connect/upgrade/decompose brains.
 v0.0.0,18042,TP업글탭(18001~19000),멀티태스킹,Multitasking
 v0.0.0,18043,TP업글탭(18001~19000),단수가 같은 둘 이상의 브레인에 채널을 연결할 수 있습니다.,All brains can be connected to other multiple brains(with the same depth).
-v0.0.0,18042,TP업글탭(18001~19000),리시버 부스터,Receiver Booster
-v0.0.0,18043,TP업글탭(18001~19000),리시버 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by the number of receiver brains.
-v0.0.0,18044,TP업글탭(18001~19000),센더 부스터 체이닝,Sender Booster Chaining
-v0.0.0,18045,TP업글탭(18001~19000),센더 브레인의 총 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by the number of <b>ALL</b> sender brains.
-v0.0.0,18046,TP업글탭(18001~19000),효율적인 브레인 생성: PHASE 2,Effective Brain Generation: PHASE 2
-v0.0.0,18047,TP업글탭(18001~19000),브레인 생성 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for brain generation.<br>(Cumulative by multiplication)
-v0.0.0,18048,TP업글탭(18001~19000),효율적인 업그레이드: PHASE 2,Effective Brain Upgrades: PHASE 2
-v0.0.0,18049,TP업글탭(18001~19000),브레인 증폭계수 업그레이드 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for multiplier upgrade.<br>(Cumulative by multiplication)
-v0.0.0,18050,TP업글탭(18001~19000),효율적인 브레인 연결: PHASE 2,Effective Brain Connection: PHASE 2
-v0.0.0,18051,TP업글탭(18001~19000),브레인 연결(채널 생성) 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for brain connection.<br>(Cumulative by multiplication)
-v0.0.0,18052,TP업글탭(18001~19000),광폭 스트리밍,Widespread Streaming
-v0.0.0,18053,TP업글탭(18001~19000),단수에 상관없이 둘 이상의 브레인에 채널을 연결할 수 있습니다.,All brains can be connected to other multiple brains(regardless of depth).
-v0.0.0,18054,TP업글탭(18001~19000),NP 대물림,NP Carry Over
-v0.0.0,18055,TP업글탭(18001~19000),초기화 시 모든 브레인의 NP 축적량의 일정 비율을 이월하여 다음 실험에 사용합니다.,Carries over a certain percentage of the NP accumulation of all brains at reset for the next experiment.
-v0.0.0,18054,TP업글탭(18001~19000),NP 부스터,NP Booster
-v0.0.0,18055,TP업글탭(18001~19000),현재 NP 보유량에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by current NP possession.
-v0.0.0,18056,TP업글탭(18001~19000),TP 더블링,TP Doubling
-v0.0.0,18057,TP업글탭(18001~19000),TP 획득량이 증가합니다.<br>이 효과는 유료 상점에도 적용됩니다.,Gains more TP.<br>Also applied for paid rewards in shop.
-v0.0.0,18058,TP업글탭(18001~19000),TP 부스터,TP Booster
-v0.0.0,18059,TP업글탭(18001~19000),현재 TP 보유량에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by current TP possession.
-v0.0.0,18060,TP업글탭(18001~19000),"Transcendental Neural Network (초월적 뉴럴 네트워크, TNN) (미구현)","Transcendental Neural Network (TNN) (NOT yet...)"
-v0.0.0,18061,TP업글탭(18001~19000),TNN을 잠금 해제합니다.<br>코어 브레인의 지능을 상상을 초월하는 수준까지 끌어올릴 수 있습니다.,Unlocks 'TNN'.<br>Your core brain will have unimaginable level of intelligence.
+v0.0.0,18044,TP업글탭(18001~19000),리시버 부스터,Receiver Booster
+v0.0.0,18045,TP업글탭(18001~19000),리시버 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by the number of receiver brains.
+v0.0.0,18046,TP업글탭(18001~19000),센더 부스터 체이닝,Sender Booster Chaining
+v0.0.0,18047,TP업글탭(18001~19000),센더 브레인의 총 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by the number of <b>ALL</b> sender brains.
+v0.0.0,18048,TP업글탭(18001~19000),효율적인 브레인 생성: PHASE 2,Effective Brain Generation: PHASE 2
+v0.0.0,18049,TP업글탭(18001~19000),브레인 생성 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for brain generation.<br>(Cumulative by multiplication)
+v0.0.0,18050,TP업글탭(18001~19000),효율적인 업그레이드: PHASE 2,Effective Brain Upgrades: PHASE 2
+v0.0.0,18051,TP업글탭(18001~19000),브레인 증폭계수 업그레이드 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for multiplier upgrade.<br>(Cumulative by multiplication)
+v0.0.0,18052,TP업글탭(18001~19000),효율적인 브레인 연결: PHASE 2,Effective Brain Connection: PHASE 2
+v0.0.0,18053,TP업글탭(18001~19000),브레인 연결(채널 생성) 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for brain connection.<br>(Cumulative by multiplication)
+v0.0.0,18054,TP업글탭(18001~19000),광폭 스트리밍,Widespread Streaming
+v0.0.0,18055,TP업글탭(18001~19000),단수에 상관없이 둘 이상의 브레인에 채널을 연결할 수 있습니다.,All brains can be connected to other multiple brains(regardless of depth).
+v0.0.0,18056,TP업글탭(18001~19000),NP 대물림,NP Carry Over
+v0.0.0,18057,TP업글탭(18001~19000),초기화 시 모든 브레인의 NP 축적량의 일정 비율을 이월하여 다음 실험에 사용합니다.,Carries over a certain percentage of the NP accumulation of all brains at reset for the next experiment.
+v0.0.0,18058,TP업글탭(18001~19000),NP 부스터,NP Booster
+v0.0.0,18059,TP업글탭(18001~19000),현재 NP 보유량에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by current NP possession.
+v0.0.0,18060,TP업글탭(18001~19000),TP 더블링,TP Doubling
+v0.0.0,18061,TP업글탭(18001~19000),TP 획득량이 증가합니다.<br>이 효과는 유료 상점에도 적용됩니다.,Gains more TP.<br>Also applied for paid rewards in shop.
+v0.0.0,18062,TP업글탭(18001~19000),TP 부스터,TP Booster
+v0.0.0,18063,TP업글탭(18001~19000),현재 TP 보유량에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by current TP possession.
+v0.0.0,18064,TP업글탭(18001~19000),"Transcendental Neural Network (초월적 뉴럴 네트워크, TNN) (미구현)","Transcendental Neural Network (TNN) (NOT yet...)"
+v0.0.0,18065,TP업글탭(18001~19000),TNN을 잠금 해제합니다.<br>코어 브레인의 지능을 상상을 초월하는 수준까지 끌어올릴 수 있습니다.,Unlocks 'TNN'.<br>Your core brain will have unimaginable level of intelligence.
 v0.0.0,19001,상점 탭(19001~20000),광고 보상,Ad Rewards
 v0.0.0,19002,상점 탭(19001~20000),초기화 시 TP 획득량 x2<br>(다음 2회까지),Doubles TP gain after reset<br>(Active for the next 2 resets)
 v0.0.0,19003,상점 탭(19001~20000),10분 스킵,Skip 10 minutes
