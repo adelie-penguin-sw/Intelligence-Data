@@ -15,7 +15,7 @@ v0.0.0,1009,네트워크 설치 알림 멘트(1001~2000),사용 가능한 고정
 v0.0.0,10001,도움말 팝업(10001~11000),도움말,Help
 v0.0.0,10002,도움말 팝업(10001~11000),기본 조작법,Basic Controls
 v0.0.0,10003,도움말 팝업(10001~11000),용어집,Terms
-v0.0.0,10004,도움말 팝업(10001~11000),"<b>브레인 네트워크 탐색</b><br><br><color=#808080ff><size=20>빈 공간을 한 손가락으로 스와이핑하여 네트워크 뷰를 이동할 수 있고, 두 손가락으로 확대/축소 동작을 할 수 있습니다.<br></size></color><br><br><b>브레인 생성</b><br><br><color=#808080ff><size=20>>화면 오른쪽 하단의 버튼을 누른 채 드래그하고<br>원하는 위치에서 드랍하여 브레인을 생성할 수 있습니다.<br>버튼 안에서 드랍하면 생성을 취소할 수 있습니다.<br></size></color><br><br><b>브레인 연결 (채널 생성)</b><br><br><color=#808080ff><size=20>브레인을 길게 누른 후 드래그하면 채널이 생성됩니다. 원하는 브레인 위에서 드랍하면 두 브레인을 연결하는 채널이 완성됩니다.<br>출발했던 브레인 또는 빈 공간에서 드랍하면 생성을 취소할 수 있습니다.<br></size></color><br><br><b>브레인 세부 정보</b><br><br><color=#808080ff><size=20>브레인을 터치하면 팝업을 띄워 해당 브레인의 세부 정보를 보거나 업그레이드/분해 등의 동작을 할 수 있습니다.<br></size></color>","<b>Brain Network Explore</b><br><br><color=#808080ff><size=20>You can swipe empty space with one finger to move the network view, and zoom with two fingers.<br></size></color><br><br><b>Brain Generation</b><br><br><color=#808080ff><size=20>>You can generate a brain by holding down and dragging the button at the bottom right of the screen and dropping it from any location.<br>Drop the brain inside the button to cancel generation.<br></size></color><br><br><b>Brain Connection<br>(Channel Generation)</b><br><br><color=#808080ff><size=20>Hold and drag the brain to create a channel starting from it. Release on the other brain to complete connection between the two brains.<br>Release on empty space to cancel connection.<br></size></color><br><br><b>Brain Info</b><br><br><color=#808080ff><size=20>Touch the brain to display a pop-up to view details of it.<br></size></color>"
+v0.0.0,10004,도움말 팝업(10001~11000),"<b>브레인 네트워크 탐색</b><br><br><color=#808080ff><size=20>빈 공간을 한 손가락으로 스와이핑하여 네트워크 뷰를 이동할 수 있고, 두 손가락으로 확대/축소 동작을 할 수 있습니다.<br></size></color><br><br><b>브레인 생성</b><br><br><color=#808080ff><size=20>>화면 오른쪽 하단의 버튼을 누른 채 드래그하고<br>원하는 위치에서 드랍하여 브레인을 생성할 수 있습니다.<br>버튼 안에서 드랍하면 생성을 취소할 수 있습니다.<br></size></color><br><br><b>브레인 연결 (채널 생성)</b><br><br><color=#808080ff><size=20>브레인을 길게 누른 후 드래그하면 채널이 생성됩니다. 원하는 브레인 위에서 드랍하면 두 브레인을 연결하는 채널이 완성됩니다.<br>출발했던 브레인 또는 빈 공간에서 드랍하면 생성을 취소할 수 있습니다.<br></size></color><br><br><b>브레인 세부 정보</b><br><br><color=#808080ff><size=20>브레인을 터치하면 팝업을 띄워 해당 브레인의 세부 정보를 보거나 업그레이드/분해 등의 동작을 할 수 있습니다.<br></size></color>","<b>Brain Network Explore</b><br><br><color=#808080ff><size=20>You can swipe empty space with one finger to move the network view, and zoom with two fingers.<br></size></color><br><br><b>Brain Generation</b><br><br><color=#808080ff><size=20>You can generate a brain by holding down and dragging the button at the bottom right of the screen and dropping it from any location.<br>Drop the brain inside the button to cancel generation.<br></size></color><br><br><b>Brain Connection<br>(Channel Generation)</b><br><br><color=#808080ff><size=20>Hold and drag the brain to create a channel starting from it. Release on the other brain to complete connection between the two brains.<br>Release on empty space to cancel connection.<br></size></color><br><br><b>Brain Info</b><br><br><color=#808080ff><size=20>Touch the brain to display a pop-up to view details of it.<br></size></color>"
 v0.0.0,10005,도움말 팝업(10001~11000),"<b>실험</b><br><br><color=#808080ff><size=20>네트워크를 성장시키고 브레인들의 지능을 키우는 전체 과정입니다.<br></size></color><br><br><b>코어 브레인</b><br><br><color=#808080ff><size=20>게임 시작부터 주어지는 큰 브레인입니다. 이 브레인의 지능을 키우는 것이 실험의 목적입니다.<br></size></color><br><br><b>노말(일반) 브레인</b><br><br><color=#808080ff><size=20>사용자가 직접 생성/연결/업그레이드/분해할 수 있는 브레인입니다.<br>이들을 활용하여 코어 브레인의 지능을 키웁니다.<br></size></color><br><br><b>지능</b><br><br><color=#808080ff><size=20>브레인의 성장 상태를 가늠하는 척도입니다.<br>모든 브레인은 자신의 지능에 비례하는 속도로 다른 브레인의 지능값을 올릴 수 있습니다.<br></size></color><br><br><b>채널</b><br><br><color=#808080ff><size=20>두 브레인을 연결하는, 방향을 갖는 선입니다.<br>각 브레인은 채널을 통해 연결된 다른 브레인의 지능값을 올려줍니다.<br></size></color><br><br><b>브레인 네트워크</b><br><br><color=#808080ff><size=20>브레인과 채널로 구성된 전체 네트워크입니다.<br></size></color><br><br><b>(브레인의)분해</b><br><br><color=#808080ff><size=20>브레인을 네트워크에서 삭제하고, 해당 브레인의 지능에 상응하는 NP를 획득하는 동작입니다.<br>만약 이 동작으로 인해 네트워크에서 고립되는 브레인이 생긴다면 이들까지 모두 자동 분해되고 NP 보상을 얻습니다.<br></size></color><br><br><b>지능의 한계</b><br><br><color=#808080ff><size=20>브레인의 지능이 성장할 수 있는 최댓값입니다.<br>NP 또는 TP를 소비하여 이 값을 올릴 수 있습니다.<br></size></color><br><br><b>증폭계수</b><br><br><color=#808080ff><size=20>TP업그레이드를 통해 잠금 해제되는 속성입니다.<br>모든 브레인은 자신의 지능에 증폭계수를 곱한 만큼의 능력을 발휘합니다.<br></size></color><br><br><b>(브레인의)단수</b><br><br><color=#808080ff><size=20>코어 브레인에 직접 연결된 브레인은 1단,<br>1단 브레인에 연결된 브레인은 2단,<br>2단에 연결된 브레인은 3단, ...<br>과 같은 식으로 매겨지는 속성값입니다.<br>채널 생성, 업그레이드 등의 동작에서 소비될 NP의 양을 결정하는 인자 중 하나로 사용됩니다.<br>게임 최초 오픈 시에는 최대 4단까지의 브레인을 생성할 수 있습니다.<br></size></color><br><br><b>실험 목표</b><br><br><color=#808080ff><size=20>코어 브레인의 지능수준이 곧 실험의 진척도이며,<br>코어 브레인의 지능이 도달해야 할 목표치가 곧 실험의 목표입니다.<br></size></color><br><br><b>초기화</b><br><br><color=#808080ff><size=20>코어 브레인을 제외한 네트워크의 모든 구성 요소를 삭제하고, 그 대가로 TP를 획득하는 과정입니다.<br>코어 브레인을 탭하여 나오는 팝업에서 초기화 동작을 할 수 있습니다.<br>특히 목표를 달성하여 실험을 완료한 경우 자동으로 초기화되며, 더 높은 목표를 갖는 새로운 실험을 시작하게 됩니다.<br></size></color><br><br><b>NP (네트워킹 파워)</b><br><br><color=#808080ff><size=20>브레인 네트워크 성장에 사용하는 재화입니다.<br>브레인 생성/연결/업그레이드 동작에서 소비되며,<br>브레인 분해 동작으로 획득합니다.<br>네트워크 초기화 시 함께 초기화됩니다.<br></size></color><br><br><b>TP (트렌센딩 파워)</b><br><br><color=#808080ff><size=20>네트워크 전체의 성능을 영구적으로 향상시키거나 새로운 시스템을 잠금 해제하는 데 사용되는 재화입니다. 네트워크 초기화를 통해 획득합니다.<br></size></color>","<b>Experiment</b><br><br><color=#808080ff><size=20>The whole process of growing the network and intelligence of the brain.<br></size></color><br><br><b>Core Brain</b><br><br><color=#808080ff><size=20>A large brain given from the start of the game. The main purpose of the experiment is to increase the intelligence of this brain.<br></size></color><br><br><b>Normal Brain</b><br><br><color=#808080ff><size=20>Brains that the user can generate/connect/upgrade/decompose manually. Use them to increase the intelligence of the core brain.<br></size></color><br><br><b>Intellect</b><br><br><color=#808080ff><size=20>A measure of brain growth. Every brain can increase the intelligence of other brains at a rate proportional to its own.<br></size></color><br><br><b>Channel</b><br><br><color=#808080ff><size=20>A line with a direction that connects the two brains. Each brain increases the intelligence of the other brain connected through the channel.<br></size></color><br><br><b>Brain Network</b><br><br><color=#808080ff><size=20>A complete network of brains and channels.<br></size></color><br><br><b>Decomposition(of a Brain)</b><br><br><color=#808080ff><size=20>The action of deleting a brain from the network and obtaining an NP corresponding to the intelligence of that brain. If this operation results in isolated brains in the network, all of them will be automatically decomposed and additional NP will be obtained.<br></size></color><br><br><b>Intellect Limit</b><br><br><color=#808080ff><size=20>The maximum value of the intelligence of s brain. You can increase this value by consuming the NP or TP.<br></size></color><br><br><b>Multiplier</b><br><br><color=#808080ff><size=20>A property unlocked by TP upgrade. Every brain multiplies its intelligence by multiplier.<br></size></color><br><br><b>Depth(of a Brain)</b><br><br><color=#808080ff><size=20>A brain directly connected to core brain is 'Depth-1'.<br>'Depth-2' brain is connected to 'Depth-1'.<br>'Depth-3' brain is connected to 'Depth-2'.<br>etc...<br>It is used as one of the factors that determines the NP cost for channel creation, brain upgrade, etc. When the game is first opened, you can create up to 'Depth-4' brains.<br></size></color><br><br><b>Experiment Goal</b><br><br><color=#808080ff><size=20>The current intelligence of the core brain is the progress of the experiment, and the goal that the intelligence of the core brain must reach is the goal of the experiment.<br></size></color><br><br><b>Reset</b><br><br><color=#808080ff><size=20>An operation of deleting all components of the network except the core brain and obtaining TP in return. This can be operated in a pop-up of the core brain. If you have completed the experiment, the network will be automatically reset, and you'll start a new experiment with a higher goal.<br></size></color><br><br><b>NP (Networking Power)</b><br><br><color=#808080ff><size=20>A currency used to grow brain networks. Consumed by the brain creation/connection/upgrade operation, obtained by the brain decomposition operation. It will be reset together when resetting the network.<br></size></color><br><br><b>TP (Transcending Power)</b><br><br><color=#808080ff><size=20>A currency used to permanently improve network performance or unlock new systems. Obtained by resetting network.<br></size></color>"
 v0.0.0,11001,통계 팝업(11001~12000),통계,Statistics
 v0.0.0,11002,통계 팝업(11001~12000),게임 시작 시각,Game Start Time
@@ -93,3 +93,80 @@ v0.0.0,16010,설정 팝업(16001~17000),로그아웃,Log Out
 v0.0.0,16011,설정 팝업(16001~17000),계정 삭제,Delete Account
 v0.0.0,17001,백분위 설정 팝업(17001~18000),백분위 설정,Set Percentage
 v0.0.0,17002,백분위 설정 팝업(17001~18000),확인,OK
+v0.0.0,18001,TP업글탭(18001~19000),업그레이드,Upgrade
+v0.0.0,18002,TP업글탭(18001~19000),잠김,Locked
+v0.0.0,18003,TP업글탭(18001~19000),잠금 해제됨,unlocked
+v0.0.0,18004,TP업글탭(18001~19000),잠금 해제 조건:,Requirements to Unlock:
+v0.0.0,18005,TP업글탭(18001~19000),최고 레벨,Max Level
+v0.0.0,18006,TP업글탭(18001~19000),빠른 성장,Faster Growth
+v0.0.0,18007,TP업글탭(18001~19000),브레인 지능 증폭계수 업그레이드가 잠금 해제됩니다.,Unlocks 'Multiplier'.
+v0.0.0,18008,TP업글탭(18001~19000),가속 성장,Growth Acceleration
+v0.0.0,18009,TP업글탭(18001~19000),브레인 지능 증폭계수 업그레이드 효과를 강화합니다.,Increases multiplier upgrade effect.
+v0.0.0,18010,TP업글탭(18001~19000),한계 돌파,Limit Break
+v0.0.0,18011,TP업글탭(18001~19000),모든 브레인의 기본 지능 한계치를 상승시킵니다.,Increases base intellect limit of all brains.
+v0.0.0,18012,TP업글탭(18001~19000),브레인 체이닝,Brain Chaining
+v0.0.0,18013,TP업글탭(18001~19000),브레인 직렬 연결 최대 단수가 증가합니다.,Increases the max depth of series connection.
+v0.0.0,18014,TP업글탭(18001~19000),파워 대물림,Power Carry Over
+v0.0.0,18015,TP업글탭(18001~19000),네트워크 초기화 시 증폭계수 보상이 증가합니다.,Increases multiplier reward for reset.
+v0.0.0,18016,TP업글탭(18001~19000),공짜 브레인,Free Brains
+v0.0.0,18017,TP업글탭(18001~19000),시작부터 정해진 개수의 브레인을 NP 소비 없이 생성할 수 있습니다.,You can generate a certain number of brains without NP consumption.
+v0.0.0,18018,TP업글탭(18001~19000),선천적 지능,Innate Intelligence
+v0.0.0,18019,TP업글탭(18001~19000),모든 브레인은 0보다 큰 지능을 이미 가진 채 생성됩니다.,You can generate brains with intellect higher than 0.
+v0.0.0,18020,TP업글탭(18001~19000),브레인 길드 부스터,Brain Guild Booster
+v0.0.0,18021,TP업글탭(18001~19000),특정 단수의 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.<br>(해당 단수의 브레인들에 적용),Additional multiplier boost effect by the number of brains with same depth.
+v0.0.0,18022,TP업글탭(18001~19000),브레인 용량 증가,Larger Brain Capacity
+v0.0.0,18023,TP업글탭(18001~19000),브레인 분해 시 더 많은 NP를 획득합니다.,Gains more NP from brain decomposition.
+v0.0.0,18024,TP업글탭(18001~19000),고정 네트워크 (FN),Fixed Network (FN)
+v0.0.0,18025,TP업글탭(18001~19000),TP를 소비하여 네트워크의 일부분을 초기화에 영향받지 않도록 고정합니다.<br>고정 네트워크에 사용할 수 있는 브레인 개수는 '공짜 브레인' 개수와 동일합니다.,Create a sub-network which does NOT affected by resetting network.(consumes TP)<br>The maximum number of brain available in this network depends on the number of free brains.
+v0.0.0,18026,TP업글탭(18001~19000),브레인 연합 부스터,Brain Union Booster
+v0.0.0,18027,TP업글탭(18001~19000),총 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.<br>(전체 브레인에 공통으로 적용),Additional multiplier boost effect by the total number of brains.<br>(Active for all brains)
+v0.0.0,18028,TP업글탭(18001~19000),효율적인 브레인 생성: PHASE 1,Effective Brain Generation: PHASE 1
+v0.0.0,18029,TP업글탭(18001~19000),브레인 생성 비용이 감소합니다.<br>(합으로 누적),Lowers NP cost for brain generation.<br>(Accumulated as a sum)
+v0.0.0,18030,TP업글탭(18001~19000),효율적인 업그레이드: PHASE 1,Effective Brain Upgrades: PHASE 1
+v0.0.0,18031,TP업글탭(18001~19000),브레인 증폭계수 업그레이드 비용이 감소합니다.<br>(합으로 누적),Lowers NP cost for multiplier upgrade.<br>(Accumulated as a sum)
+v0.0.0,18032,TP업글탭(18001~19000),효율적인 브레인 연결: PHASE 1,Effective Brain Connection: PHASE 1
+v0.0.0,18033,TP업글탭(18001~19000),브레인 연결(채널 생성) 비용이 감소합니다.<br>(합으로 누적),Lowers NP cost for brain connection.<br>(Accumulated as a sum)
+v0.0.0,18034,TP업글탭(18001~19000),파워 클리커 (미구현),Power Clicker (NOT implemented)
+v0.0.0,18035,TP업글탭(18001~19000),탭을 통한 NP 획득량이 증가합니다.,Increases NP obtained by tapping.
+v0.0.0,18036,TP업글탭(18001~19000),센더 부스터,Sender Booster
+v0.0.0,18037,TP업글탭(18001~19000),센더 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by the number of sender brains.
+v0.0.0,18038,TP업글탭(18001~19000),빠른 시작,Head Start
+v0.0.0,18039,TP업글탭(18001~19000),더 많은 NP를 보유한 채 네트워크를 시작합니다.,Start a network with more initial NP.
+v0.0.0,18040,TP업글탭(18001~19000),자동화 부분네트워크 (ASN) (미구현),Automated Sub-Network (ASN) (NOT implemented)
+v0.0.0,18041,TP업글탭(18001~19000),브레인을 자동으로 생성/연결/업그레이드/분해하는 부분 네트워크를 구축합니다.,Create a sub-network which automatically generates/connect/upgrade/decompose brains.
+v0.0.0,18042,TP업글탭(18001~19000),멀티태스킹,Multitasking
+v0.0.0,18043,TP업글탭(18001~19000),단수가 같은 둘 이상의 브레인에 채널을 연결할 수 있습니다.,All brains can be connected to other multiple brains(with the same depth).
+v0.0.0,18042,TP업글탭(18001~19000),리시버 부스터,Receiver Booster
+v0.0.0,18043,TP업글탭(18001~19000),리시버 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by the number of receiver brains.
+v0.0.0,18044,TP업글탭(18001~19000),센더 부스터 체이닝,Sender Booster Chaining
+v0.0.0,18045,TP업글탭(18001~19000),센더 브레인의 총 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by the number of <b>ALL</b> sender brains.
+v0.0.0,18046,TP업글탭(18001~19000),효율적인 브레인 생성: PHASE 2,Effective Brain Generation: PHASE 2
+v0.0.0,18047,TP업글탭(18001~19000),브레인 생성 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for brain generation.<br>(Cumulative by multiplication)
+v0.0.0,18048,TP업글탭(18001~19000),효율적인 업그레이드: PHASE 2,Effective Brain Upgrades: PHASE 2
+v0.0.0,18049,TP업글탭(18001~19000),브레인 증폭계수 업그레이드 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for multiplier upgrade.<br>(Cumulative by multiplication)
+v0.0.0,18050,TP업글탭(18001~19000),효율적인 브레인 연결: PHASE 2,Effective Brain Connection: PHASE 2
+v0.0.0,18051,TP업글탭(18001~19000),브레인 연결(채널 생성) 비용이 감소합니다.<br>(곱으로 누적),Lowers NP cost for brain connection.<br>(Cumulative by multiplication)
+v0.0.0,18052,TP업글탭(18001~19000),광폭 스트리밍,Widespread Streaming
+v0.0.0,18053,TP업글탭(18001~19000),단수에 상관없이 둘 이상의 브레인에 채널을 연결할 수 있습니다.,All brains can be connected to other multiple brains(regardless of depth).
+v0.0.0,18054,TP업글탭(18001~19000),NP 대물림,NP Carry Over
+v0.0.0,18055,TP업글탭(18001~19000),초기화 시 모든 브레인의 NP 축적량의 일정 비율을 이월하여 다음 실험에 사용합니다.,Carries over a certain percentage of the NP accumulation of all brains at reset for the next experiment.
+v0.0.0,18054,TP업글탭(18001~19000),NP 부스터,NP Booster
+v0.0.0,18055,TP업글탭(18001~19000),현재 NP 보유량에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by current NP possession.
+v0.0.0,18056,TP업글탭(18001~19000),TP 더블링,TP Doubling
+v0.0.0,18057,TP업글탭(18001~19000),TP 획득량이 증가합니다.<br>이 효과는 유료 상점에도 적용됩니다.,Gains more TP.<br>Also applied for paid rewards in shop.
+v0.0.0,18058,TP업글탭(18001~19000),TP 부스터,TP Booster
+v0.0.0,18059,TP업글탭(18001~19000),현재 TP 보유량에 따른 증폭계수 부스트 효과가 추가 적용됩니다.,Additional multiplier boost effect by current TP possession.
+v0.0.0,18060,TP업글탭(18001~19000),"Transcendental Neural Network (초월적 뉴럴 네트워크, TNN) (미구현)","Transcendental Neural Network (TNN) (NOT yet...)"
+v0.0.0,18061,TP업글탭(18001~19000),TNN을 잠금 해제합니다.<br>코어 브레인의 지능을 상상을 초월하는 수준까지 끌어올릴 수 있습니다.,Unlocks 'TNN'.<br>Your core brain will have unimaginable level of intelligence.
+v0.0.0,19001,상점 탭(19001~20000),광고 보상,Ad Rewards
+v0.0.0,19002,상점 탭(19001~20000),초기화 시 TP 획득량 x2<br>(다음 2회까지),Doubles TP gain after reset<br>(Active for the next 2 resets)
+v0.0.0,19003,상점 탭(19001~20000),10분 스킵,Skip 10 minutes
+v0.0.0,19004,상점 탭(19001~20000),3시간 동안 실험 진행 속도 x2,Doubles overall speed of experiment for 3 hours
+v0.0.0,19005,상점 탭(19001~20000),유료 보상,Paid Rewards
+v0.0.0,19006,상점 탭(19001~20000),- 광고 제거<br>- 영구적으로 TP 획득량 x2<br>- 영구적으로 진행 속도 x2,- Disable Ads<br>- Permanently doubles TP gain<br>- Permanently doubles experiment speed
+v0.0.0,19007,상점 탭(19001~20000),6시간 스킵,Skip 6 hours
+v0.0.0,20001,유저 뷰 탭(20001~21000),최상위,Top
+v0.0.0,20002,유저 뷰 탭(20001~21000),내주변,My
+v0.0.0,20003,유저 뷰 탭(20001~21000),순위,Rank
+v0.0.0,20004,유저 뷰 탭(20001~21000),실험 레벨,Experiment Level
+v0.0.0,20005,유저 뷰 탭(20001~21000),지능 최고기록,Highest Intellect
