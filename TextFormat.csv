@@ -5,7 +5,7 @@ v0.0.0,3,,전체 브레인 증폭계수 x{0},x{0} Multiplier\nfor All Brains
 v0.0.0,4,,{0}\n으로 한계 돌파,Break Limit to\n{0}
 v0.0.0,5,,{0} NP 획득,Gain\n{0} NP
 v0.0.0,6,,{0} NP 획득\n+ {1} NP,Gain {0} NP\n+ {1} NP
-v0.0.0,7,,{0}회\n업그레이드,Upgrade\n{0} times
+v0.0.0,7,,{0}회 업그레이드,Upgrade {0} times
 v0.0.0,8,,Lv. {0},Lv. {0}
 v0.0.0,9,,{0}회,{0} Attempts
 v0.0.0,10,,{0},{0}
