@@ -3,7 +3,6 @@ v0.0.0,1,기타,닉네임을 설정하세요.,Set your username.
 v0.0.0,2,기타,이미 사용중인 닉네임입니다.,This name is already exists.
 v0.0.0,3,기타,설정,Options
 v0.0.0,4,기타,소개,About
-v0.0.0,5,기타,브레인 네트워크 실험\n\nLevel. {0}\n\n시도 횟수: {1}회,Brain Network Experiment\n\nLevel. {0}\n\nAttempt {1}
 v0.0.0,1001,네트워크 설치 알림 멘트(1001~2000),다른 브레인들과 거리가 너무 가깝습니다.,Too close to other brains.
 v0.0.0,1002,네트워크 설치 알림 멘트(1001~2000),연결할 브레인을 선택하세요.,Select a brain to connect.
 v0.0.0,1003,네트워크 설치 알림 멘트(1001~2000),코어 브레인에서 출발하는 채널은 생성할 수 없습니다.,Cannot generate a channel starting from core.
