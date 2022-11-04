@@ -70,6 +70,12 @@ v0.0.0,,constant,PaidRewardTPMult1,int,5
 v0.0.0,,constant,PaidRewardTPMult2,int,10
 v0.0.0,,constant,PaidRewardTPMult3,int,50
 v0.0.0,,constant,PaidRewardTPMult4,int,100
+v0.0.0,,constant,PaidRewardRemoveAdCostKRW,int,1200
+v0.0.0,,constant,PaidRewardSkipCostKRW,int,1200
+v0.0.0,,constant,PaidRewardTP1CostKRW,int,1200
+v0.0.0,,constant,PaidRewardTP2CostKRW,int,2000
+v0.0.0,,constant,PaidRewardTP3CostKRW,int,8000
+v0.0.0,,constant,PaidRewardTP4CostKRW,int,15000
 v0.0.0,"0이면 무한업글 가능, 1이면 해금형",maxCondition,TPU000MaxLevel,int,1
 v0.0.0,,maxCondition,TPU001MaxLevel,int,18
 v0.0.0,,maxCondition,TPU002MaxLevel,int,80
