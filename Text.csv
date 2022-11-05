@@ -172,3 +172,9 @@ v0.0.0,20003,유저 뷰 탭(20001~21000),순위,Rank
 v0.0.0,20004,유저 뷰 탭(20001~21000),닉네임,Name
 v0.0.0,20005,유저 뷰 탭(20001~21000),실험 레벨,Exp Lv.
 v0.0.0,20006,유저 뷰 탭(20001~21000),코어 브레인 지능 최고기록,Highest Core Intellect
+v0.0.0,21001,스토리화면(21001~22000),"당신은 초지능을 연구하는 과학자입니다.","You are a scientist who studies superintelligence."
+v0.0.0,21002,스토리화면(21001~22000),"인공 브레인들을 연결하여 네트워크를 구성하고, 브레인들의 시너지 효과를 이용하여 지능수준을 대폭 끌어올리려 합니다.","Connecting artificial brains to form a network, and using the synergy of brains to significantly raise the level of intelligence."
+v0.0.0,21003,스토리화면(21001~22000),"그러나 당신의 네트워크는 아직은 그렇게 똑똑하지 않습니다.","But your network isn't that smart yet."
+v0.0.0,21004,스토리화면(21001~22000),"따라서 낮은 지능 목표를 잡아 첫 번째 실험을 진행하고자 합니다.","So you'll conduct the first experiment with a low intelligence goal."
+v0.0.0,21005,스토리화면(21001~22000),"이 실험이 성공하면, 더 높은 목표와 함께 후속 실험들을 진행할 수 있을 것입니다.","If this experiment is successful, it will be possible to proceed with follow-up experiments with higher goals."
+v0.0.0,21006,스토리화면(21001~22000),"당신의 네트워크는 어디까지 성장할 수 있을까요?","How far can your network grow?"
