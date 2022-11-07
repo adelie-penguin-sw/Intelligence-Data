@@ -3,9 +3,9 @@ v0.0.0,,exchangeFunction,BrainGeneratingCostEquation,string,( 2 + 0.2 * physical
 v0.0.0,,exchangeFunction,ChannelGeneratingCostEquation,string,1 * 3 ^ receiverDistance * ( 1 - 0.02 * tpu013 ) * 0.5 ^ tpu023
 v0.0.0,,exchangeFunction,BrainMultiplierUpgradeCostEquation,string,3 * growthRate ^ upgradeCount * ( 1 - 0.04 * tpu012 ) * 0.8 ^ tpu022
 v0.0.0,,exchangeFunction,BrainMultiplierEquation,string,( 2 + tpu001 ) ^ upgradeCount
-v0.0.0,,exchangeFunction,BrainLimitUpgradeCostEquation,string,10 ^ ( distance * upgradeCount + 1 )
+v0.0.0,,exchangeFunction,BrainLimitUpgradeCostEquation,string,3.1 ^ ( distance * upgradeCount + 1 )
 v0.0.0,,exchangeFunction,BrainLimitEquation,string,baseLimit * 10 ^ ( upgradeCount * ( upgradeCount + 1 ) * ( tpu002 + 1 ) / 2 )
-v0.0.0,,exchangeFunction,BrainDecomposingGainEquation,string,12 * ( 1 + log10 ( intellect + 1 ) ) ^ ( 0.4 * ( log10 ( 500 * ( log10 ( intellect + 1 ) ) + 1 ) ) ) * 2 ^ tpu008
+v0.0.0,,exchangeFunction,BrainDecomposingGainEquation,string,12 * ( 1 + log10 ( intellect + 1 ) ) ^ ( 0.3 * ( log10 ( 500 * ( log10 ( intellect + 1 ) ) + 1 ) ) ) * 2 ^ tpu008
 v0.0.0,,exchangeFunction,TPrewardForReset,string,( 0.1 * log10 ( coreBrainIntellect + 1 ) ) ^ 1.2 * 2 ^ tpu027
 v0.0.0,,exchangeFunction,FixedBrainGeneratingCostEquation,string,0.2 * physicalDistance * 2 ^ fixedBrainCount
 v0.0.0,,exchangeFunction,FixedChannelGeneratingCostEquation,string,3 ^ receiverDistance
