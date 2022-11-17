@@ -56,3 +56,4 @@ v0.0.0,54,,,
 v0.0.0,55,,,
 v0.0.0,56,,브레인 네트워크 실험\n\nLevel. {0}\n\n시도 횟수: {1}회,Brain Network Experiment\n\nLevel. {0}\n\nAttempt {1}
 v0.0.0,57,,직렬 {0}단 브레인 연결,Connect brain depth {0}
+v0.0.0,58,,+{0},+{0}
