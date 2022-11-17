@@ -160,12 +160,12 @@ v0.0.0,18063,TP업글탭(18001~19000),현재 TP 보유량에 따른 증폭계수
 v0.0.0,18064,TP업글탭(18001~19000),"Transcendental Neural Network (초월적 뉴럴 네트워크, TNN) (미구현)","Transcendental Neural Network (TNN) (NOT yet...)"
 v0.0.0,18065,TP업글탭(18001~19000),TNN을 잠금 해제합니다.<br>코어 브레인의 지능을 상상을 초월하는 수준까지 끌어올릴 수 있습니다.,Unlocks 'TNN'.<br>Your core brain will have unimaginable level of intelligence.
 v0.0.0,19001,상점 탭(19001~20000),광고 보상,Ad Rewards
-v0.0.0,19002,상점 탭(19001~20000),초기화 시 TP 획득량 x2<br>(다음 2회까지),Doubles TP gain after reset<br>(Active for next 2 resets)
-v0.0.0,19003,상점 탭(19001~20000),10분 스킵,Skip 10 minutes
-v0.0.0,19004,상점 탭(19001~20000),다음 초기화 이후부터 실험 진행 속도 x4<br>(다음 3회까지),x4 overall speed of experiment after next reset<br>(Active for next 3 resets)
+v0.0.0,19002,상점 탭(19001~20000),초기화 시 TP 획득량 x2<br>(다음 3회까지),Doubles TP gain after reset<br>(Active for next 3 resets)
+v0.0.0,19003,상점 탭(19001~20000),1시간 스킵,Skip 1 hour
+v0.0.0,19004,상점 탭(19001~20000),다음 초기화 이후부터 실험 진행 속도 x2<br>(다음 3회까지),x2 overall speed of experiment after next reset<br>(Active for next 3 resets)
 v0.0.0,19005,상점 탭(19001~20000),유료 보상,Paid Rewards
 v0.0.0,19006,상점 탭(19001~20000),- 광고 제거<br>- 영구적으로 TP 획득량 x2<br>- 영구적으로 진행 속도 x2,- Disable Ads<br>- Permanently doubles TP gain<br>- Permanently doubles experiment speed
-v0.0.0,19007,상점 탭(19001~20000),6시간 스킵,Skip 6 hours
+v0.0.0,19007,상점 탭(19001~20000),24시간 스킵,Skip 24 hours
 v0.0.0,20001,유저 뷰 탭(20001~21000),최상위,Top
 v0.0.0,20002,유저 뷰 탭(20001~21000),내주변,My
 v0.0.0,20003,유저 뷰 탭(20001~21000),순위,Rank
