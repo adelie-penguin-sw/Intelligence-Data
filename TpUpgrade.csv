@@ -1,9 +1,9 @@
 version,key,effectValueEquation,costEquation,maxLevel,unlockRequirement,meta
 v0.0.0,0,,1,1,[],
-v0.0.0,1,upgradeCount + 2,1 * 1.2 ^ upgradeCount,18,"[[0, 1]]",
+v0.0.0,1,upgradeCount * 2 + 2,1 * 1.2 ^ upgradeCount,49,"[[0, 1]]",
 v0.0.0,2,,1 * 1.3 ^ upgradeCount,80,"[[1, 1]]",
 v0.0.0,3,upgradeCount + 4,2 * 1.9 ^ upgradeCount,20,"[[2, 1]]",
-v0.0.0,4,1.07 ^ ( upgradeCount ^ 2 ),2 * 1.2 ^ upgradeCount,100,"[[2, 3]]",
+v0.0.0,4,1.1 ^ ( upgradeCount ^ 2 ),2 * 1.2 ^ upgradeCount,100,"[[2, 3]]",
 v0.0.0,5,upgradeCount,5 * 2 ^ upgradeCount,50,"[[4, 3]]",
 v0.0.0,6,10 ^ ( upgradeCount - 1 ),10 * 2 ^ upgradeCount,10,"[[5, 2]]",
 v0.0.0,7,,15,1,"[[3, 3], [6, 2]]",
