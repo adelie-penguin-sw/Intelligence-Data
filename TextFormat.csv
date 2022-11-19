@@ -57,3 +57,13 @@ v0.0.0,55,,,
 v0.0.0,56,,브레인 네트워크 실험\n\nLevel. {0}\n\n시도 횟수: {1}회,Brain Network Experiment\n\nLevel. {0}\n\nAttempt {1}
 v0.0.0,57,,직렬 {0}단 브레인 연결,Connect brain depth {0}
 v0.0.0,58,,+{0},+{0}
+v0.0.0,59,,{0}/{1}회 초기화 가능,{0}/{1} resets remaining
+v0.0.0,60,,{0:D2}m {1:D2}s 후 +1,+1 after {0:D2}m {1:D2}s
+v0.0.0,61,,광고 보상 ({0}/{1}),Ad Bonus ({0}/{1})
+v0.0.0,62,,실험 진행 속도 x{0} ({0}/{1}),Experiment speed x{0} ({0}/{1})
+v0.0.0,63,,초기화 시 TP 획득량 x{0}<br>(다음 {1}회까지),x{0} TP gain after reset<br>(Active for next {1} resets)
+v0.0.0,64,,{0}시간 스킵,Skip {0} hour(s)
+v0.0.0,65,,다음 초기화 이후부터 실험 진행 속도 x{0}<br>(다음 {1}회까지),x{0} overall speed of experiment after next reset<br>(Active for next {1} resets)
+v0.0.0,66,,앞으로 {1}회간 TP를 {0}배 획득할 수 있습니다.,You'll get x{0} TP for the next {1} resets.
+v0.0.0,67,,{0}시간 스킵하였습니다.,Skipped {0} hour(s)
+v0.0.0,68,,이후 {1}회 시도에서 실험 진행 속도가 {0}배 빨라집니다.,x{0} experiment speed for the next {1} attempts.
