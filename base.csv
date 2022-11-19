@@ -80,6 +80,8 @@ v0.0.0,,constant,AdRewardDoubleTPCount,int,3
 v0.0.0,,constant,AdRewardDoubleTPAmount,int,2
 v0.0.0,,constant,AdRewardTimeSkipSeconds,int,3600
 v0.0.0,,constant,AdRewardSpeedUpCount,int,3
+v0.0.0,,constant,ResetCountPeriodNanoSeconds,int,600000000000
+v0.0.0,,constant,ResetCountMax,int,5
 v0.0.0,"0이면 무한업글 가능, 1이면 해금형",maxCondition,TPU000MaxLevel,int,1
 v0.0.0,,maxCondition,TPU001MaxLevel,int,49
 v0.0.0,,maxCondition,TPU002MaxLevel,int,80
