@@ -60,7 +60,7 @@ v0.0.0,58,,+{0},+{0}
 v0.0.0,59,,{0}/{1}회 초기화 가능,{0}/{1} resets remaining
 v0.0.0,60,,{0:D2}m {1:D2}s 후 +1,+1 after {0:D2}m {1:D2}s
 v0.0.0,61,,광고 보상 ({0}/{1}),Ad Bonus ({0}/{1})
-v0.0.0,62,,실험 진행 속도 x{0} ({0}/{1}),Experiment speed x{0} ({0}/{1})
+v0.0.0,62,,실험 진행 속도 x{0} ({1}/{2}),Experiment speed x{0} ({1}/{2})
 v0.0.0,63,,초기화 시 TP 획득량 x{0}<br>(다음 {1}회까지),x{0} TP gain after reset<br>(Active for next {1} resets)
 v0.0.0,64,,{0}시간 스킵,Skip {0} hour(s)
 v0.0.0,65,,다음 초기화 이후부터 실험 진행 속도 x{0}<br>(다음 {1}회까지),x{0} overall speed of experiment after next reset<br>(Active for next {1} resets)
