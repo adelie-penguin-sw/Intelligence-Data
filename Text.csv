@@ -53,6 +53,7 @@ v0.0.0,12015,브레인 정보 팝업(12001~13000),작동 중,Working
 v0.0.0,12016,브레인 정보 팝업(12001~13000),한계 초과,Limit Exceeded
 v0.0.0,12017,브레인 정보 팝업(12001~13000),네트워크 초기화,Network Reset
 v0.0.0,12018,브레인 정보 팝업(12001~13000),브레인 분해,Decompose Brain
+v0.0.0,12019,브레인 정보 팝업(12001~13000),고정 브레인,Fixed Brain
 v0.0.0,13001,네트워크 초기화 팝업(13001~14000),네트워크 초기화,Network Reset
 v0.0.0,13002,네트워크 초기화 팝업(13001~14000),취소,Cancel
 v0.0.0,13003,네트워크 초기화 팝업(13001~14000),실험을 완료했습니다!,Experiment Complete!
@@ -196,3 +197,8 @@ v0.0.0,24001,소개화면(24001~25000),"",""
 v0.0.0,25001,게스트로그인 확인팝업(25001~26000),"게스트로 로그인합니다.<br>게임 또는 캐시를 삭제하거나 로그아웃할 경우 데이터를 복구할 수 없습니다.","Login as guest.<br>If you log out or delete game or cache, all data won't be recoverable."
 v0.0.0,26001,브레인 분해 확인팝업(26001~27000),"정말로 브레인을 분해하고<br>NP를 획득하시겠습니까?","Decompose brain(s)<br>and gain NP?"
 v0.0.0,26002,브레인 분해 확인팝업(26001~27000),"정말로 TP를 소비하여<br>고정 브레인을 분해하시겠습니까?","Decompose fixed brain<br>using TP?"
+v0.0.0,27001,튜토리얼 퀘스트(27001~28000),"드래그 & 드랍으로 브레인을 생성하세요.","Drag & drop to create a brain."
+v0.0.0,27002,튜토리얼 퀘스트(27001~28000),"브레인을 홀드 & 드래그하여 채널을 생성하세요.","Hold & drag a brain to create a channel."
+v0.0.0,27003,튜토리얼 퀘스트(27001~28000),"브레인을 탭하여 팝업을 띄우고 지능을 강화하세요.","Tap a brain to show a popup and increase intellect."
+v0.0.0,27004,튜토리얼 퀘스트(27001~28000),"코어 브레인의 지능을 1000까지 올려 실험을 완료하세요.","Make core brain to have 1000 intellect and complete experiment."
+v0.0.0,27005,튜토리얼 퀘스트(27001~28000),"브레인 팝업에서 브레인을 분해하여 NP를 획득하세요.","Decompose a brain in the brain popup to gain NP."
