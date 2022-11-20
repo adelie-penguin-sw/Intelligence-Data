@@ -118,7 +118,7 @@ v0.0.0,18017,TP업글탭(18001~19000),시작부터 정해진 개수의 브레인
 v0.0.0,18018,TP업글탭(18001~19000),선천적 지능,Innate Intelligence
 v0.0.0,18019,TP업글탭(18001~19000),모든 브레인은 0보다 큰 지능을 이미 가진 채 생성됩니다.,You can generate brains with intellect higher than 0.
 v0.0.0,18020,TP업글탭(18001~19000),브레인 길드 부스터,Brain Guild Booster
-v0.0.0,18021,TP업글탭(18001~19000),특정 단수의 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.<br>단수가 높은 브레인일수록 부스트 효과가 더 크게 작용합니다.<br>(해당 단수의 브레인들에 적용),Additional multiplier boost effect by the number of brains with same depth.<br>The higher the depth of brains, the greater the boost effect.
+v0.0.0,18021,TP업글탭(18001~19000),"특정 단수의 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.<br>단수가 높은 브레인일수록 부스트 효과가 더 크게 작용합니다.<br>(해당 단수의 브레인들에 적용)","Additional multiplier boost effect by the number of brains with same depth.<br>The higher the depth of brains, the greater the boost effect."
 v0.0.0,18022,TP업글탭(18001~19000),브레인 용량 증가,Larger Brain Capacity
 v0.0.0,18023,TP업글탭(18001~19000),브레인 분해 시 더 많은 NP를 획득합니다.,Gains more NP from brain decomposition.
 v0.0.0,18024,TP업글탭(18001~19000),고정 네트워크 (FN),Fixed Network (FN)
