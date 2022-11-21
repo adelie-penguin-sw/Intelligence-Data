@@ -11,10 +11,10 @@ v0.0.0,,exchangeFunction,FixedBrainGeneratingCostEquation,string,0.2 * physicalD
 v0.0.0,,exchangeFunction,FixedChannelGeneratingCostEquation,string,3 ^ receiverDistance
 v0.0.0,,exchangeFunction,FixedBrainDecomposingCostEquation,string,2 ^ fixedBrainCount
 v0.0.0,,exchangeFunction,MultiplierRewardForReset,string,( 0.02 * log10 ( coreBrainIntellect + 1 ) ) ^ ( 1.3 + 0.2 * tpu004 ) * 1.1 ^ ( tpu004 ^ 2 )
-v0.0.0,TPU-007: 브레인 길드 부스터,exchangeFunction,MultiplierBoostForTPU007,string,brainCount ^ ( 2.14 ^ distance )
+v0.0.0,TPU-007: 브레인 길드 부스터,exchangeFunction,MultiplierBoostForTPU007,string,brainCount ^ ( 1.54 ^ distance )
 v0.0.0,TPU-010: 브레인 연합 부스터,exchangeFunction,MultiplierBoostForTPU010,string,10 ^ ( brainCount ^ 2 )
-v0.0.0,TPU-015: 센더 부스터,exchangeFunction,MultiplierBoostForTPU015,string,brainCount ^ ( 2.14 ^ distance )
-v0.0.0,TPU-019: 리시버 부스터,exchangeFunction,MultiplierBoostForTPU019,string,brainCount ^ ( 2.14 ^ distance )
+v0.0.0,TPU-015: 센더 부스터,exchangeFunction,MultiplierBoostForTPU015,string,brainCount ^ ( 1.54 ^ distance )
+v0.0.0,TPU-019: 리시버 부스터,exchangeFunction,MultiplierBoostForTPU019,string,brainCount ^ ( 1.54 ^ distance )
 v0.0.0,TPU-020: 센더 부스터 체이닝,exchangeFunction,MultiplierBoostForTPU020,string,10 ^ ( brainCount ^ 2 )
 v0.0.0,TPU-026: NP 부스터,exchangeFunction,MultiplierBoostForTPU026,string,10 ^ ( NP ^ 0.125 )
 v0.0.0,TPU-028: TP 부스터,exchangeFunction,MultiplierBoostForTPU028,string,10 ^ TP
