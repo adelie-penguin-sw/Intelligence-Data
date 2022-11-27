@@ -53,6 +53,7 @@ v0.0.0,12015,브레인 정보 팝업(12001~13000),작동 중,Working
 v0.0.0,12016,브레인 정보 팝업(12001~13000),한계 초과,Limit Exceeded
 v0.0.0,12017,브레인 정보 팝업(12001~13000),네트워크 초기화,Network Reset
 v0.0.0,12018,브레인 정보 팝업(12001~13000),브레인 분해,Decompose Brain
+v0.0.0,12019,브레인 정보 팝업(12001~13000),고정 브레인,Fixed Brain
 v0.0.0,13001,네트워크 초기화 팝업(13001~14000),네트워크 초기화,Network Reset
 v0.0.0,13002,네트워크 초기화 팝업(13001~14000),취소,Cancel
 v0.0.0,13003,네트워크 초기화 팝업(13001~14000),실험을 완료했습니다!,Experiment Complete!
@@ -70,6 +71,9 @@ v0.0.0,13014,네트워크 초기화 팝업(13001~14000),TP 보상,TP Reward
 v0.0.0,13015,네트워크 초기화 팝업(13001~14000),네트워크를 초기화하고 다음 단계의 실험을 시작하여 더 높은 목표에 도전하세요!,Reset network to start the next level experiment with higher goal!!
 v0.0.0,13016,네트워크 초기화 팝업(13001~14000),정말 초기화하시겠습니까? 지금 초기화하면 동일한 실험을 처음부터 다시 시작하게 됩니다.,Are you sure want to reset?\nYou'll restart this experiment with the same goal.
 v0.0.0,13017,네트워크 초기화 팝업(13001~14000),NP 이월량,NP Carry Over
+v0.0.0,13018,네트워크 초기화 팝업(13001~14000),"TP 획득량은 현재 코어 브레인의 지능수준에 따라 결정되고,<br>시간이 흐름에 따라 꾸준히 증가합니다.","Amount of TP gain depends on intellect of core brain,<br>and increases steadily over time."
+v0.0.0,13019,네트워크 초기화 팝업(13001~14000),실험 완료 보상,Completion Bonus
+v0.0.0,13020,네트워크 초기화 팝업(13001~14000),최대,MAX
 v0.0.0,14001,유저 정보 팝업(14001~15000),내 정보,MY INFO
 v0.0.0,14002,유저 정보 팝업(14001~15000),실험 레벨,Experiment Level
 v0.0.0,14003,유저 정보 팝업(14001~15000),현재 시도 횟수,Current Attempts
@@ -114,7 +118,7 @@ v0.0.0,18017,TP업글탭(18001~19000),시작부터 정해진 개수의 브레인
 v0.0.0,18018,TP업글탭(18001~19000),선천적 지능,Innate Intelligence
 v0.0.0,18019,TP업글탭(18001~19000),모든 브레인은 0보다 큰 지능을 이미 가진 채 생성됩니다.,You can generate brains with intellect higher than 0.
 v0.0.0,18020,TP업글탭(18001~19000),브레인 길드 부스터,Brain Guild Booster
-v0.0.0,18021,TP업글탭(18001~19000),특정 단수의 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.<br>(해당 단수의 브레인들에 적용),Additional multiplier boost effect by the number of brains with same depth.
+v0.0.0,18021,TP업글탭(18001~19000),"특정 단수의 브레인 개수에 따른 증폭계수 부스트 효과가 추가 적용됩니다.<br>단수가 높은 브레인일수록 부스트 효과가 더 크게 작용합니다.<br>(해당 단수의 브레인들에 적용)","Additional multiplier boost effect by the number of brains with same depth.<br>The higher the depth of brains, the greater the boost effect."
 v0.0.0,18022,TP업글탭(18001~19000),브레인 용량 증가,Larger Brain Capacity
 v0.0.0,18023,TP업글탭(18001~19000),브레인 분해 시 더 많은 NP를 획득합니다.,Gains more NP from brain decomposition.
 v0.0.0,18024,TP업글탭(18001~19000),고정 네트워크 (FN),Fixed Network (FN)
@@ -171,7 +175,7 @@ v0.0.0,20002,유저 뷰 탭(20001~21000),내주변,My
 v0.0.0,20003,유저 뷰 탭(20001~21000),순위,Rank
 v0.0.0,20004,유저 뷰 탭(20001~21000),닉네임,Name
 v0.0.0,20005,유저 뷰 탭(20001~21000),실험 레벨,Exp Lv.
-v0.0.0,20006,유저 뷰 탭(20001~21000),코어 브레인 지능 최고기록,Highest Core Intellect
+v0.0.0,20006,유저 뷰 탭(20001~21000),현재 코어 브레인 지능,Current Core Intellect
 v0.0.0,21001,스토리화면(21001~22000),"당신은 초지능을 연구하는 과학자입니다.","You are a scientist who studies superintelligence."
 v0.0.0,21002,스토리화면(21001~22000),"인공 브레인들을 연결하여 네트워크를 구성하고, 브레인들의 시너지 효과를 이용하여 지능수준을 대폭 끌어올리려 합니다.","Connecting artificial brains to form a network, and using the synergy of brains to significantly raise the level of intelligence."
 v0.0.0,21003,스토리화면(21001~22000),"그러나 당신의 네트워크는 아직은 그렇게 똑똑하지 않습니다.","But your network isn't that smart yet."
@@ -193,3 +197,8 @@ v0.0.0,24001,소개화면(24001~25000),"",""
 v0.0.0,25001,게스트로그인 확인팝업(25001~26000),"게스트로 로그인합니다.<br>게임 또는 캐시를 삭제하거나 로그아웃할 경우 데이터를 복구할 수 없습니다.","Login as guest.<br>If you log out or delete game or cache, all data won't be recoverable."
 v0.0.0,26001,브레인 분해 확인팝업(26001~27000),"정말로 브레인을 분해하고<br>NP를 획득하시겠습니까?","Decompose brain(s)<br>and gain NP?"
 v0.0.0,26002,브레인 분해 확인팝업(26001~27000),"정말로 TP를 소비하여<br>고정 브레인을 분해하시겠습니까?","Decompose fixed brain<br>using TP?"
+v0.0.0,27001,튜토리얼 퀘스트(27001~28000),"드래그 & 드랍으로 브레인을 생성하세요.","Drag & drop to create a brain."
+v0.0.0,27002,튜토리얼 퀘스트(27001~28000),"브레인을 홀드 & 드래그하여 채널을 생성하세요.","Hold & drag a brain to create a channel."
+v0.0.0,27003,튜토리얼 퀘스트(27001~28000),"브레인을 탭하여 팝업을 띄우고 지능을 강화하세요.","Tap a brain to show a popup and increase intellect."
+v0.0.0,27004,튜토리얼 퀘스트(27001~28000),"코어 브레인의 지능을 1000까지 올려 실험을 완료하세요.","Make core brain to have 1000 intellect and complete experiment."
+v0.0.0,27005,튜토리얼 퀘스트(27001~28000),"브레인 팝업에서 브레인을 분해하여 NP를 획득하세요.","Decompose a brain in the brain popup to gain NP."
