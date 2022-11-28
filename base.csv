@@ -39,9 +39,9 @@ v0.0.0,,exchangeFunction,TPU017CostEquation,string,500 * 2 ^ upgradeCount
 v0.0.0,,exchangeFunction,TPU018CostEquation,string,800
 v0.0.0,,exchangeFunction,TPU019CostEquation,string,1500
 v0.0.0,,exchangeFunction,TPU020CostEquation,string,2500
-v0.0.0,,exchangeFunction,TPU021CostEquation,string,2000 * 1.32 ^ upgradeCount
-v0.0.0,,exchangeFunction,TPU022CostEquation,string,5000 * 1.5 ^ upgradeCount
-v0.0.0,,exchangeFunction,TPU023CostEquation,string,7000 * 1.1 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU021CostEquation,string,1000 * 1.32 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU022CostEquation,string,2500 * 1.5 ^ upgradeCount
+v0.0.0,,exchangeFunction,TPU023CostEquation,string,3500 * 1.1 ^ upgradeCount
 v0.0.0,,exchangeFunction,TPU024CostEquation,string,80000
 v0.0.0,,exchangeFunction,TPU025CostEquation,string,150000 * 1.7 ^ upgradeCount
 v0.0.0,,exchangeFunction,TPU026CostEquation,string,100000
